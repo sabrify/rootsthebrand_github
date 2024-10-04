@@ -1,0 +1,26 @@
+.rich-text__blocks p{
+  color: #241E19 ;
+  font-size: 16px;
+  line-height:150%;
+}
+@font-face{
+   font-family: 'FreightDispProBlack Regular';
+  src: url("{{ 'FreightDispProBlack Regular.woff2'| asset_url}}") format ("woff");
+  url('FreightDispProBlack Regular') format('woff');
+}
+.rich-text__heading.rte.inline-richtext.h1.scroll-trigger.animate--slide-in{
+    font-family: "FreightDispProBlack Regular" !important ;
+    font-size: 40px ;
+    font-weight: 600 ;
+  line-height: 120%;
+  }
+@font-face{
+   font-family: 'Geist SemiBold';
+  src: url("{{ 'Geist SemiBold.woff2'| asset_url}}") format ("woff");
+  url('Geist SemiBold') format('woff');
+}
+.rich-text__caption.subtitle.subtitle--medium.scroll-trigger.animate--slide-in{
+  font-family: "Geist SemiBold";
+  font-size: 14px;
+  line-height: 150%;
+}
