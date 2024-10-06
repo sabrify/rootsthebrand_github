@@ -298,6 +298,7 @@
     </script>
 
     {{ 'custom-image-banner.css' | asset_url | stylesheet_tag }}
+    <style>
     @font-face {
     font-family: 'Geist Regular';
     src: url("{{ 'Geist Regular.woff2' | asset_url }}") format ("woff");
@@ -326,7 +327,7 @@ h1, h2{font-family: "FreightDispProBold Regular" !important;}
   src: url("{{ 'FreightDispProBlack Regular.woff2'| asset_url}}") format ("woff");
   url('FreightDispProBlack Regular') format('woff');
 }
-
+</style
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
