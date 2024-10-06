@@ -1,6 +1,15 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/SxdtO2r0ajxAQSfdiEJ08Vdrp82dOsUkPeMiYh86.png",
+    "logo": "shopify://shop_images/SxdtO2r0ajxAQSfdiEJ08Vdrp82dOsUkPeMiYh86.png",
     "logo_width": 60,
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
@@ -98,13 +107,13 @@
     "sale_badge_color_scheme": "scheme-4",
     "sold_out_badge_color_scheme": "scheme-3",
     "brand_headline": "",
-    "brand_description": "<p><\/p>",
+    "brand_description": "<p></p>",
     "brand_image_width": 100,
-    "social_facebook_link": "",
-    "social_instagram_link": "",
-    "social_youtube_link": "",
+    "social_facebook_link": "#",
+    "social_instagram_link": "#",
+    "social_youtube_link": "#",
     "social_tiktok_link": "",
-    "social_twitter_link": "",
+    "social_twitter_link": "#",
     "social_snapchat_link": "",
     "social_pinterest_link": "",
     "social_tumblr_link": "",
@@ -137,7 +146,7 @@
     ],
     "blocks": {
       "776302416715791028": {
-        "type": "shopify:\/\/apps\/bucks\/blocks\/app-embed\/4f0a9b06-9da4-4a49-b378-2de9d23a3af3",
+        "type": "shopify://apps/bucks/blocks/app-embed/4f0a9b06-9da4-4a49-b378-2de9d23a3af3",
         "disabled": false,
         "settings": {
         }
@@ -357,7 +366,7 @@
       "sale_badge_color_scheme": "scheme-4",
       "sold_out_badge_color_scheme": "scheme-3",
       "brand_headline": "",
-      "brand_description": "<p><\/p>",
+      "brand_description": "<p></p>",
       "brand_image_width": 100,
       "social_twitter_link": "",
       "social_facebook_link": "",
