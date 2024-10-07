@@ -12,7 +12,7 @@
   font-size: 16px;
   color: #241E19;
   font-family: "Geist_Regular" !important;
-  font-weight: 500;
+  font-weight: 500 !important;
   
 }
 a.button.button--primary{
