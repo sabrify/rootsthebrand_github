@@ -3660,6 +3660,15 @@ details-disclosure > details {
       url('{{ 'LibreBaskerville-Bold.eot' | asset_url }}') format('embedded-opentype'),
       url('{{ 'LibreBaskerville-Bold.ttf' | asset_url }}') format('truetype'),   
 }
+    @font-face {
+    font-family: 'LibreBaskerville-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url('{{ 'LibreBaskerville-Bold.woff2' | asset_url }}') format('woff2'),
+      url('{{ 'LibreBaskerville-Bold.woff' | asset_url }}') format('woff'),
+      url(https://cdn.shopify.com/s/files/1/0706/7746/3271/files/LibreBaskerville-Bold.eot?v=1728318779) format('embedded-opentype'),
+      url('{{ 'LibreBaskerville-Bold.ttf' | asset_url }}') format('truetype'),   
+}
 
 h1,
 h2,
