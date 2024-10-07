@@ -3644,7 +3644,7 @@ details-disclosure > details {
 }
 @font-face {
   font-family: 'LibreBaskerville';
-    src: url('{{ 'LibreBaskerville.woff' | asset_url }}') format('woff');         
+    src: url('./LibreBaskerville.woff') format('woff');         
     font-weight: normal;
     font-style: normal;
     font-display: swap;
