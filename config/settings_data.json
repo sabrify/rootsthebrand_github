@@ -151,7 +151,7 @@
               "custom_font_url": "https://cdn.shopify.com/s/files/1/0706/7746/3271/files/FreightDispProBold_Regular.woff?v=1728305815",
               "apply_h1": true,
               "apply_h2": true,
-              "apply_h3": true,
+              "apply_h3": false,
               "apply_h4": false,
               "apply_h5": false,
               "apply_h6": false,
@@ -173,7 +173,7 @@
             "type": "image",
             "settings": {
               "name": "Geist_Regular",
-              "custom_font_weight": "none",
+              "custom_font_weight": "normal",
               "custom_font_url": "https://cdn.shopify.com/s/files/1/0706/7746/3271/files/Geist_Regular.woff2?v=1728299404",
               "apply_h1": false,
               "apply_h2": false,
