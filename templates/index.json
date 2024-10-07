@@ -88,7 +88,7 @@
         "text_GymWkU"
       ],
       "custom_css": [
-        ".rich-text__heading.rte.inline-richtext.h1.scroll-trigger.animate--slide-in{font-family: \"FreightDispProBold_Regular\" !important ; font-size: 40px ; font-weight: 900 ; line-height: 120%; }"
+
       ],
       "settings": {
         "desktop_content_position": "center",
