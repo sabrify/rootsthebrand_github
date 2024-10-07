@@ -259,7 +259,7 @@ h5,
 .h4,
 .h5 {
   /* font-family: var(--font-heading-family); */
-  font-family:"FreightDispProBold_Regular";
+  font-family:"FreightDispProBlack_Regular";
   font-style: var(--font-heading-style);
   font-weight: var(--font-heading-weight);
   letter-spacing: calc(var(--font-heading-scale) * 0.06rem);
@@ -3635,7 +3635,19 @@ details-disclosure > details {
             font-weight: 900;
     font-style: normal;
 }
- 
+ h1,
+h2,
+h3,
+h4,
+h5,
+.h0,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5{
+  font-family: 'FreightDispProBlack_Regular'; !important
+}
 body{ font-family: "Geist_Regular" !important; }
 
 button {font-family: "Geist_Medium" !important;}
