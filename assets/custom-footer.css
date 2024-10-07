@@ -32,24 +32,24 @@
 }
 .footer-block .footer-block__heading h2{
     font-size: 14px;
-    font-family: "Geist SemiBold" !important;
+    font-family: "Geist_SemiBold" !important;
 }
 .footer-block:nth-child(2) h2, .footer-block:nth-child(3) h2{
     font-size: 14px;
-    font-family: "Geist SemiBold" !important;
+    font-family: "Geist_SemiBold" !important;
     line-height: 150%;
     color: #241E19;
 } 
 .footer-block:nth-child(2) p{
     font-size: 14px;
-    font-family: "Geist Regular" !important;
+    font-family: "Geist_Regular" !important;
     line-height: 150%;
     color: #241E19;
 
 } 
 .footer-block:nth-child(3) p{
     font-size: 14px;
-    font-family: "Geist Regular" !important;
+    font-family: "Geist_Regular" !important;
     line-height: 150%;
     color: #7E3D19;
     text-decoration: underline;
@@ -57,7 +57,7 @@
 } 
 .footer-block:nth-child(4) a {
     font-size: 16px;
-    font-family: "Geist SemiBold" !important;
+    font-family: "Geist_SemiBold" !important;
     line-height: 150%;
     color: #7E3D19;
 
