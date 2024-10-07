@@ -3602,6 +3602,8 @@ details-disclosure > details {
         font-family: 'Geist_SemiBold';
         src: url(https://cdn.shopify.com/s/files/1/0706/7746/3271/files/Geist_SemiBold.woff2?v=1728299404) format ("woff2");
         url('Geist SemiBold') format('woff');
+     font-weight: 600;
+  font-style: normal;
       }
             @font-face {
         font-family: 'Geist_Regular';
