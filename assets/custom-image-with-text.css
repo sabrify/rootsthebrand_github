@@ -1,34 +1,4 @@
- @font-face {
-        font-family: 'Geist_SemiBold';
-        src: url(https://cdn.shopify.com/s/files/1/0706/7746/3271/files/Geist_SemiBold.woff2?v=1728299404) format ("woff2");
-        url('Geist_SemiBold') format('woff2');
-     font-weight: 600;
-  font-style: normal;
-      }
-            @font-face {
-        font-family: 'Geist_Regular';
-        src: url(https://cdn.shopify.com/s/files/1/0706/7746/3271/files/Geist_Regular.woff2?v=1728299404) format ("woff2");
-        url('Geist_Regular') format('woff2');
-      }
-                  @font-face {
-        font-family: 'Geist_Medium';
-        src: url(https://cdn.shopify.com/s/files/1/0706/7746/3271/files/Geist_Medium.woff2?v=1728299403) format ("woff2");
-        url('Geist_Medium') format('woff2');
-      }
-      @font-face{
-  font-family: 'FreightDispProBold_Regular';
-  src: url(https://cdn.shopify.com/s/files/1/0706/7746/3271/files/FreightDispProBold_Regular.woff2?v=1728300458) format ("woff2");
-  url('FreightDispProBold_Regular') format('woff2');
-  font-weight: bold;
-  font-style: normal;
-}
-      @font-face{
-  font-family: 'FreightDispProBlack_Regular';
-  src: url(https://cdn.shopify.com/s/files/1/0706/7746/3271/files/FreightDispProBlack_Regular.woff2?v=1728300458) format ("woff2");
-  url('FreightDispProBlack_Regular') format('woff2');
-            font-weight: 900;
-    font-style: normal;
- 
+
 .section-template--18096157163751__image_with_text_dUNTxR-padding .image-with-text {
   background-color: #F9F2E7 ;
 }
