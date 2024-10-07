@@ -3665,9 +3665,8 @@ details-disclosure > details {
     font-style: normal;
     font-weight: normal;
     src: url(https://cdn.shopify.com/s/files/1/0706/7746/3271/files/LibreBaskerville-Bold.woff2?v=1728318779) format('woff2'),
-      url('{{ 'LibreBaskerville-Bold.woff' | asset_url }}') format('woff'),
+      url(https://cdn.shopify.com/s/files/1/0706/7746/3271/files/LibreBaskerville-Bold.woff?v=1728318779) format('woff'),
       url(https://cdn.shopify.com/s/files/1/0706/7746/3271/files/LibreBaskerville-Bold.eot?v=1728318779) format('embedded-opentype'),
-      url('https://cdn.shopify.com/s/files/1/0706/7746/3271/files/LibreBaskerville-Bold.woff?v=1728318779') format('truetype'),   
 }
 
 h1,
