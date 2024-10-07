@@ -298,7 +298,7 @@
     </script>
 
     {{ 'custom-image-banner.css' | asset_url | stylesheet_tag }}
-    <style>
+<style>
     @font-face {
     font-family: 'Geist Regular';
     src: url("{{ 'Geist Regular.woff2' | asset_url }}") format ("woff");
@@ -320,8 +320,8 @@ body{ font-family: "Geist Regular" !important; }
   src: url("{{ 'FreightDispProBold Regular.woff2'| asset_url}}") format ("woff");
   url('FreightDispProBold Regular') format('woff');
 }
-h1, h2{font-family: "FreightDispProBold Regular" !important;}
-
+/* h1, h2{font-family: "FreightDispProBold Regular" !important;}
+ */
 @font-face{
    font-family: 'FreightDispProBlack Regular';
   src: url("{{ 'FreightDispProBlack Regular.woff2'| asset_url}}") format ("woff");
