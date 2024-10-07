@@ -328,7 +328,14 @@
       }
     </script>
 
-    {{ 'custom-image-banner.css' | asset_url | stylesheet_tag }}
+        {{ 'custom-image-banner.css' | asset_url | stylesheet_tag }}
+        {{ 'custom-collection-list.css' | asset_url | stylesheet_tag }}
+        {{ 'custom-footer.css' | asset_url | stylesheet_tag }}
+        {{ 'custom-image-with-text.css' | asset_url | stylesheet_tag }}
+        {{ 'custom-newsletter.css' | asset_url | stylesheet_tag }}
+    {{ 'custom-richt-text.css' | asset_url | stylesheet_tag }}
+    {{ 'custom-header.css' | asset_url | stylesheet_tag }}
+
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
