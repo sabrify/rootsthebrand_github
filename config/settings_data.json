@@ -246,13 +246,40 @@
               "apply_small": false,
               "apply_custom": ""
             }
+          },
+          "image_4AB6n3": {
+            "type": "image",
+            "settings": {
+              "name": "FreightDispProBlack_Regular",
+              "custom_font_weight": "none",
+              "custom_font_url": "https://cdn.shopify.com/s/files/1/0706/7746/3271/files/FreightDispProBlack_Regular.woff2?v=1728300458",
+              "apply_h1": true,
+              "apply_h2": true,
+              "apply_h3": false,
+              "apply_h4": false,
+              "apply_h5": false,
+              "apply_h6": false,
+              "apply_span": false,
+              "apply_p": false,
+              "apply_a": false,
+              "apply_input": false,
+              "apply_label": false,
+              "apply_legend": false,
+              "apply_button": false,
+              "apply_summary": false,
+              "apply_select": false,
+              "apply_option": false,
+              "apply_small": false,
+              "apply_custom": ""
+            }
           }
         },
         "block_order": [
           "image_DLWMz7",
           "image_LRcQBR",
           "image_twHK4i",
-          "image_ixThQB"
+          "image_ixThQB",
+          "image_4AB6n3"
         ],
         "settings": {
           "enable": true
