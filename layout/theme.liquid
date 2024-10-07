@@ -298,35 +298,6 @@
     </script>
 
     {{ 'custom-image-banner.css' | asset_url | stylesheet_tag }}
-    @font-face {
-    font-family: 'Geist Regular';
-    src: url("{{ 'Geist Regular.woff2' | asset_url }}") format ("woff");
-    url('Geist Regular.woff') format('woff');
-
-}
- 
-body{ font-family: "Geist Regular" !important; }
-
-@font-face {
-  font-family: 'Geist Medium';
-  src: url("{{ 'Geist Medium.woff2'| asset_url}}") format ("woff");
-  url('Geist Medium') format('woff');
-}
-.button {font-family: "Geist Medium" !important;}
-
-@font-face{
-  font-family: 'FreightDispProBold Regular';
-  src: url("{{ 'FreightDispProBold Regular.woff2'| asset_url}}") format ("woff");
-  url('FreightDispProBold Regular') format('woff');
-}
-h1, h2{font-family: "FreightDispProBold Regular" !important;}
-
-@font-face{
-   font-family: 'FreightDispProBlack Regular';
-  src: url("{{ 'FreightDispProBlack Regular.woff2'| asset_url}}") format ("woff");
-  url('FreightDispProBlack Regular') format('woff');
-}
-
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
@@ -403,8 +374,5 @@ h1, h2{font-family: "FreightDispProBold Regular" !important;}
     {%- if settings.cart_type == 'drawer' -%}
       <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-    <style>
-      
-    </style>
   </body>
 </html>
