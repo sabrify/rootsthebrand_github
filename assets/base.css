@@ -3626,7 +3626,7 @@ details-disclosure > details {
   font-style: normal;
 }
       @font-face{
-  font-family: 'FreightDispProBlack_Regular';
+  font-family: 'FreightDispProBlack';
   src: url('{{ 'FreightDispProBlack_Regular.woff2' | asset_url }}') format ("woff2");
         url('{{ 'FreightDispProBlack_Regular.woff' | asset_url }}') format ("woff");
          url('{{ 'FreightDispProBlack_Regular.ttf' | asset_url }}') format('truetype');
