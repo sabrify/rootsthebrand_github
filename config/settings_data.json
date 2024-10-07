@@ -166,7 +166,7 @@
               "apply_select": false,
               "apply_option": false,
               "apply_small": false,
-              "apply_custom": ".image-with-text__heading.h1"
+              "apply_custom": ".rich-text__heading.rte.inline-richtext.h1.scroll-trigger.animate--slide-in{\n    font-family: \"FreightDispProBold_Regular\" !important ;\n    font-size: 40px ;\n    font-weight: 900 ;\n  line-height: 120%;\n  }"
             }
           },
           "image_LRcQBR": {
