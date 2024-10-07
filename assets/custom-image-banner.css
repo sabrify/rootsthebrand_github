@@ -87,7 +87,8 @@ font-family: "FreightDispPro_Bold" !important;
    font-size: 18px;
    color: white;
    margin-bottom: 32px;
-        font-family: "Geist_Regular" !important;
+  font-family: "Geist_Regular" !important;
+     font-weight: 500;
 
  }
     .button,
