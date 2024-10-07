@@ -3626,6 +3626,7 @@ details-disclosure > details {
         url('https://cdn.shopify.com/s/files/1/0706/7746/3271/files/FreightDispProBold_Regular.ttf?v=1728305816') format('truetype'); 
       font-weight: bold;
   font-style: normal;
+         -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: antialiased;
           font-display: swap; /* Ensures text is visible until the custom font loads */
 
 }
