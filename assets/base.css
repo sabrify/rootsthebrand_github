@@ -3599,21 +3599,7 @@ details-disclosure > details {
   }
 }
 
-@font-face {
-    font-family: 'Geist Regular';
-    src: url("{{ 'Geist Regular.woff2' | asset_url }}") format ("woff2");
-    url('Geist Regular.woff') format('woff');
 
-}
- 
-body{ font-family: "Geist Regular" !important; }
-
-@font-face {
-  font-family: 'Geist Medium';
-  src: url("{{ 'Geist Medium.woff2'| asset_url}}") format ("woff2");
-  url('Geist Medium') format('woff');
-}
-.button {font-family: "Geist Medium" !important;}
 
 @font-face{
   font-family: 'FreightDispProBold Regular';
