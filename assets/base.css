@@ -3615,10 +3615,9 @@ details-disclosure > details {
         font-family: 'Geist_Medium';
         src: url(https://cdn.shopify.com/s/files/1/0706/7746/3271/files/Geist_Medium.woff2?v=1728299403) format ("woff2");
         url('Geist_Medium') format('woff2');
-      }
+      };
       @font-face{
-      @font-face{
-  font-family: 'FreightDispProBold_Regular';
+  font-family: 'FreightDispProBold Regular';
   src: url(https://cdn.shopify.com/s/files/1/0706/7746/3271/files/FreightDispProBold_Regular.woff2?v=1728300458) format ("woff2");
         url(https://cdn.shopify.com/s/files/1/0706/7746/3271/files/FreightDispProBold_Regular.woff?v=1728305815) format('woff');
         url(https://cdn.shopify.com/s/files/1/0706/7746/3271/files/FreightDispProBold_Regular.eot?v=1728305816) format('embedded-opentype');
