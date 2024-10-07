@@ -88,7 +88,7 @@
         "text_GymWkU"
       ],
       "custom_css": [
-        "p {font-weight: 500 !important;}"
+        ".image-with-text__text.rte.body p {font-weight: 500 !important;}"
       ],
       "settings": {
         "desktop_content_position": "center",
