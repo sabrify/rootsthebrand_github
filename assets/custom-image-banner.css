@@ -34,11 +34,11 @@
  
 }
    .banner__text{
-   font-size: 18px;
-    font-family: "Geist_Regular" !important;
-   color: white;
-       font-weight: 500;
-   margin-bottom: 32px;
+      font-size: 18px;
+      font-family: "Geist_Regular" !important;
+      color: white;
+      font-weight: 500;
+      margin-bottom: 32px;
  }
       .button,
 .button::after {
