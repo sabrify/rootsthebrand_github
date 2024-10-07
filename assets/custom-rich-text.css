@@ -13,6 +13,7 @@
 
 .rich-text__caption.subtitle.subtitle--medium.scroll-trigger.animate--slide-in{
   font-family: "Geist_SemiBold";
+  font-weight: 600;
   font-size: 14px;
   line-height: 150%;
 }
