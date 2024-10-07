@@ -3624,15 +3624,19 @@ details-disclosure > details {
         url(https://cdn.shopify.com/s/files/1/0706/7746/3271/files/FreightDispProBold_Regular.ttf?v=1728305816) format('truetype'); 
       font-weight: bold;
   font-style: normal;
+          font-display: swap; /* Ensures text is visible until the custom font loads */
+
 }
       @font-face{
   font-family: 'FreightDispProBlack';
-  src: url('{{ 'FreightDispProBlack_Regular.woff2' | asset_url }}') format("woff2"),
-        url('{{ 'FreightDispProBlack_Regular.woff' | asset_url }}') format("woff"),
+  src: url('{{ 'FreightDispProBlack_Regular.woff2' | asset_url }}') format(woff2),
+        url('{{ 'FreightDispProBlack_Regular.woff' | asset_url }}') format(woff),
          url('{{ 'FreightDispProBlack_Regular.ttf' | asset_url }}') format('truetype'),
         url('{{ 'FreightDispProBlack_Regular.eot' | asset_url }}') format('embedded-opentype');
             font-weight: 900;
     font-style: normal;
+          font-display: swap; /* Ensures text is visible until the custom font loads */
+
 }
  h1,
 h2,
