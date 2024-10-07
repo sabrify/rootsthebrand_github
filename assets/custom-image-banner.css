@@ -80,8 +80,7 @@
     grid-column: 1; /* Header in the first column */
     font-size: 56px;
     font-weight: 550;
-     font-family: "FreightDispProBlack_Regular" !important;
-
+font-family: "FreightDispProBlack_Regular" !important;
 }
  .banner__text{
    font-size: 18px;
