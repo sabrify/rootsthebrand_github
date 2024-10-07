@@ -3654,11 +3654,11 @@ h5,
 .h3,
 .h4,
 .h5{
-  font-family: 'FreightDispProBlack'!important; 
+  font-family: 'FreightDispProBlack', sans-serif !important; 
 }
-body{ font-family: "Geist_Regular" !important; }
+body{ font-family: "Geist_Regular", sans-serif !important; }
 
-button {font-family: "Geist_Medium" !important;}
+button {font-family: "Geist_Medium", sans-serif !important;}
 
 
 
