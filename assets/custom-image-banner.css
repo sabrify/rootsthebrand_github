@@ -28,7 +28,7 @@
     grid-column: 1; /* Header in the first column */
     font-size: 56px;
         font-weight: 550;
-     font-family: "FreightDispProBlack Regular" !important;
+     font-family: "FreightDispProBlack_Regular" !important;
 }
   .banner_text_and_button {
     grid-column: 2; /* Text and button in the second column */
@@ -84,7 +84,7 @@
     grid-column: 1; /* Header in the first column */
     font-size: 56px;
     font-weight: 550;
-     font-family: "FreightDispProBlack Regular" !important;
+     font-family: "FreightDispProBlack_Regular" !important;
 
 }
  .banner__text{
@@ -96,7 +96,7 @@
 .button::after {
   outline: none;
   border-radius: 4px;
-  font-family: "Geist Medium" !important;
+  font-family: "Geist_Medium" !important;
   font-size: 16px;
   line-height: 150%;
   color: #7E3D19;
@@ -130,7 +130,7 @@
     max-width: 8ch;
     white-space:normal;
     word-wrap: break-word;
-    font-family: "FreightDispProBlack Regular" !important;
+    font-family: "FreightDispProBlack_Regular" !important;
     font-size: 48px;
     font-weight: 550;
     line-height: 120%;
@@ -146,14 +146,14 @@
     font-size: 16px;
     line-height: 150%;
     color: white;
-    font-family: "Geist Regular" !important;
+    font-family: "Geist_Regular" !important;
   }
 
   .button,
 .button::after {
   outline: none;
   border-radius: 4px;
-  font-family: "Geist Medium" !important;
+  font-family: "Geist_Medium" !important;
   font-size: 16px;
   line-height: 150%;
   color: #7E3D19;
