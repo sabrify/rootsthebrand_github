@@ -194,11 +194,38 @@
               "apply_small": false,
               "apply_custom": ""
             }
+          },
+          "image_twHK4i": {
+            "type": "image",
+            "settings": {
+              "name": "Geist_Medium",
+              "custom_font_weight": "none",
+              "custom_font_url": "https://cdn.shopify.com/s/files/1/0706/7746/3271/files/Geist_Medium.woff2?v=1728299403",
+              "apply_h1": false,
+              "apply_h2": false,
+              "apply_h3": false,
+              "apply_h4": false,
+              "apply_h5": false,
+              "apply_h6": false,
+              "apply_span": false,
+              "apply_p": false,
+              "apply_a": true,
+              "apply_input": false,
+              "apply_label": false,
+              "apply_legend": false,
+              "apply_button": true,
+              "apply_summary": false,
+              "apply_select": false,
+              "apply_option": false,
+              "apply_small": false,
+              "apply_custom": ""
+            }
           }
         },
         "block_order": [
           "image_DLWMz7",
-          "image_LRcQBR"
+          "image_LRcQBR",
+          "image_twHK4i"
         ],
         "settings": {
           "enable": true
