@@ -3629,7 +3629,7 @@ details-disclosure > details {
         font-display: swap; /* Ensures text is visible until the custom font loads */ ;
 
 }
-      @font-face{
+      /* @font-face{
   font-family: 'FreightDispProBlack_Regular';
   src: url('./FreightDispProBlack_Regular.woff2') format('woff2');
   src: url('./FreightDispProBlack_Regular.woff2') format('woff2'),
@@ -3640,7 +3640,7 @@ details-disclosure > details {
     font-style: normal;
           font-display: swap; /* Ensures text is visible until the custom font loads */ ;
          -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: antialiased;
-
+ */
 }
 
     @font-face {
@@ -3650,9 +3650,16 @@ details-disclosure > details {
     src: url('{{ 'FreightDispProBlack_Regular.woff2' | asset_url }}') format('woff2'),
       url('{{ 'FreightDispProBlack_Regular.woff' | asset_url }}') format('woff'),
       url('{{ 'FreightDispProBlack_Regular.eot' | asset_url }}') format('embedded-opentype'),
-      url('{{ 'FreightDispProBlack_Regular.ttf' | asset_url }}') format('truetype'),
-      
-       
+      url('{{ 'FreightDispProBlack_Regular.ttf' | asset_url }}') format('truetype'),   
+}
+    @font-face {
+    font-family: 'FreightDispProBlack_Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('{{ 'FreightDispProBlack_Regular.woff2' | asset_url }}') format('woff2'),
+      url('{{ 'FreightDispProBlack_Regular.woff' | asset_url }}') format('woff'),
+      url('{{ 'FreightDispProBlack_Regular.eot' | asset_url }}') format('embedded-opentype'),
+      url('{{ 'FreightDispProBlack_Regular.ttf' | asset_url }}') format('truetype'),   
 }
 
 h1,
