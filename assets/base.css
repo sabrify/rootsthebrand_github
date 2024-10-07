@@ -3642,6 +3642,13 @@ details-disclosure > details {
          -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: antialiased;
 
 }
+@font-face {
+  font-family: 'LibreBaskerville';
+    src: url('{{ 'LibreBaskerville.woff' | asset_url }}') format('woff');         
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 h1,
 h2,
@@ -3654,7 +3661,7 @@ h5,
 .h3,
 .h4,
 .h5{
-  font-family: 'FreightDispProBold_Regular' !important; 
+  font-family: 'LibreBaskerville' !important; 
 }
 body{ font-family: "Geist_Regular" !important; }
 
