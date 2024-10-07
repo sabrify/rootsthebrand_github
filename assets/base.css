@@ -3642,12 +3642,13 @@ details-disclosure > details {
          -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: antialiased;
 
 }
-@font-face {
-  font-family: 'LibreBaskerville';
-    src: url('./LibreBaskerville.woff') format('woff');         
-    font-weight: normal;
+
+    @font-face {
+    font-family: 'LibreBaskerville';
     font-style: normal;
-    font-display: swap;
+    font-weight: normal;
+    src: url('{{ 'LibreBaskerville.woff' | asset_url }}') format('woff');
+       
 }
 
 h1,
