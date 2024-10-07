@@ -3642,8 +3642,7 @@ details-disclosure > details {
          -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: antialiased;
  */
 }
-
-    @font-face {
+    /* @font-face {
     font-family: 'FreightDispProBlack_Regular';
     font-style: normal;
     font-weight: normal;
@@ -3651,6 +3650,15 @@ details-disclosure > details {
       url('{{ 'FreightDispProBlack_Regular.woff' | asset_url }}') format('woff'),
       url('{{ 'FreightDispProBlack_Regular.eot' | asset_url }}') format('embedded-opentype'),
       url('{{ 'FreightDispProBlack_Regular.ttf' | asset_url }}') format('truetype'),   
+} */
+    @font-face {
+    font-family: 'LibreBaskerville-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url('{{ 'LibreBaskerville-Bold.woff2' | asset_url }}') format('woff2'),
+      url('{{ 'LibreBaskerville-Bold.woff' | asset_url }}') format('woff'),
+      url('{{ 'LibreBaskerville-Bold.eot' | asset_url }}') format('embedded-opentype'),
+      url('{{ 'LibreBaskerville-Bold.ttf' | asset_url }}') format('truetype'),   
 }
 
 h1,
@@ -3664,7 +3672,7 @@ h5,
 .h3,
 .h4,
 .h5{
-  font-family: 'LibreBaskerville' !important; 
+  font-family: 'LibreBaskerville-Bold' !important; 
 }
 body{ font-family: "Geist_Regular" !important; }
 
