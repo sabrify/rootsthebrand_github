@@ -24,7 +24,7 @@
     grid-column: 1; /* Header in the first column */
     font-size: 56px;
         font-weight: 550;
-     font-family: "FreightDispProBlack_Regular" !important;
+     font-family: "LibreBaskerville-Bold" !important;
 }
   .banner_text_and_button {
     grid-column: 2; /* Text and button in the second column */
@@ -80,7 +80,7 @@
     grid-column: 1; /* Header in the first column */
     font-size: 56px;
     font-weight: 550;
-font-family: "FreightDispProBold_Regular" !important;
+font-family: "LibreBaskerville-Bold" !important;
 }
  .banner__text{
    font-size: 18px;
@@ -127,7 +127,7 @@ font-family: "FreightDispProBold_Regular" !important;
     max-width: 8ch;
     white-space:normal;
     word-wrap: break-word;
-    font-family: "FreightDispProBlack_Regular" !important;
+    font-family: "LibreBaskerville-Bold" !important;
     font-size: 48px;
     font-weight: 550;
     line-height: 120%;
