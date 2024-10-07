@@ -37,7 +37,7 @@
       font-size: 18px;
       font-family: "Geist_Regular" !important;
       color: white;
-      font-weight: 600;
+      font-weight: 500;
       margin-bottom: 32px;
  }
       .button,
@@ -83,12 +83,12 @@
     font-weight: 550;
 font-family: "FreightDispPro_Bold" !important;
 }
- .banner__text p{
+ .banner__text.rte.body p{
    font-size: 18px;
    color: white;
    margin-bottom: 32px;
   font-family: "Geist_Regular" !important;
-     font-weight: 900;
+     font-weight: 500;
 
  }
     .button,
