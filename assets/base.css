@@ -3646,7 +3646,7 @@ h5,
 .h3,
 .h4,
 .h5{
-  font-family: 'FreightDispProBlack_Regular'; !important
+  font-family: 'FreightDispProBlack_Regular'!important; 
 }
 body{ font-family: "Geist_Regular" !important; }
 
