@@ -3627,7 +3627,7 @@ details-disclosure > details {
       font-weight: bold;
   font-style: normal;
          -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: antialiased;
-          font-display: swap; /* Ensures text is visible until the custom font loads */
+          font-display: swap; /* Ensures text is visible until the custom font loads */ ;
 
 }
       @font-face{
@@ -3639,7 +3639,8 @@ details-disclosure > details {
         url('{{ 'FreightDispProBlack_Regular.eot' | asset_url }}') format('embedded-opentype');
             font-weight: 900;
     font-style: normal;
-          font-display: swap; /* Ensures text is visible until the custom font loads */
+          font-display: swap; /* Ensures text is visible until the custom font loads */ ;
+         -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: antialiased;
 
 }
  h1,
