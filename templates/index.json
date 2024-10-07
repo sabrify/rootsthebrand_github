@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "image_banner": {
@@ -21,7 +30,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop our products",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -35,7 +44,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Elegant_Tan_Leather_Handbag_cc55311e-2710-42f0-90a1-80dafd28ea53.jpg",
+        "image": "shopify://shop_images/Elegant_Tan_Leather_Handbag_cc55311e-2710-42f0-90a1-80dafd28ea53.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -69,7 +78,7 @@
         "text_GymWkU": {
           "type": "text",
           "settings": {
-            "text": "<p> Our products are designed to reflect our unique perspective and style, making the little things better, and we won't stop until we get it right. We combine incredible craftsmanship, a touch of heart and the finest materials.<\/p>"
+            "text": "<p> Our products are designed to reflect our unique perspective and style, making the little things better, and we won't stop until we get it right. We combine incredible craftsmanship, a touch of heart and the finest materials.</p>"
           }
         }
       },
@@ -77,6 +86,9 @@
         "caption_zY6JGe",
         "heading_HRWcVD",
         "text_GymWkU"
+      ],
+      "custom_css": [
+        ".rich-text__heading.rte.inline-richtext.h1.scroll-trigger.animate--slide-in{font-family: \"FreightDispProBold_Regular\" !important ; font-size: 40px ; font-weight: 900 ; line-height: 120%; }"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -147,7 +159,7 @@
         "text_dCVUmf": {
           "type": "text",
           "settings": {
-            "text": "<p>Each of our products is handcrafted to last a lifetime and distinctly unique, with no two products being the same.  One by one, every single piece in our collection is 100% hand-stitched by real artisans using marine-grade polyester, and the highest quality leather: <\/p>",
+            "text": "<p>Each of our products is handcrafted to last a lifetime and distinctly unique, with no two products being the same.  One by one, every single piece in our collection is 100% hand-stitched by real artisans using marine-grade polyester, and the highest quality leather: </p>",
             "text_style": "body"
           }
         },
@@ -155,7 +167,7 @@
           "type": "button",
           "settings": {
             "button_label": "Shop our products",
-            "button_link": "shopify:\/\/products\/vegan-leather-bag",
+            "button_link": "shopify://products/vegan-leather-bag",
             "button_style_secondary": false
           }
         }
@@ -166,7 +178,7 @@
         "button_T9YQt7"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Elegant_Tan_Leather_Handbag_cc55311e-2710-42f0-90a1-80dafd28ea53.jpg",
+        "image": "shopify://shop_images/Elegant_Tan_Leather_Handbag_cc55311e-2710-42f0-90a1-80dafd28ea53.jpg",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -227,7 +239,7 @@
         "text_9anfbH": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.<\/p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>",
             "text_style": "body"
           }
         },
@@ -235,7 +247,7 @@
           "type": "button",
           "settings": {
             "button_label": "Shop our products",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify://collections/all",
             "button_style_secondary": true
           }
         }
@@ -246,7 +258,7 @@
         "button_3xg77H"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/pexels-taken-by-great-1293037072-27893079.jpg",
+        "image": "shopify://shop_images/pexels-taken-by-great-1293037072-27893079.jpg",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -267,49 +279,49 @@
         "image_tY6Yng": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Elegant_Beige_Leather_Folder_in_Hand.jpg",
+            "image": "shopify://shop_images/Elegant_Beige_Leather_Folder_in_Hand.jpg",
             "alt_text": "Add a description for accessibility and SEO"
           }
         },
         "image_Vezbpx": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Luxurious_Leather_Handbag.jpg",
+            "image": "shopify://shop_images/Luxurious_Leather_Handbag.jpg",
             "alt_text": "Add a description for accessibility and SEO"
           }
         },
         "image_9RWefT": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bag.png",
+            "image": "shopify://shop_images/Bag.png",
             "alt_text": "Add a description for accessibility and SEO"
           }
         },
         "image_cgJXGe": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Elegant_Tan_Leather_Handbag_cc55311e-2710-42f0-90a1-80dafd28ea53.jpg",
+            "image": "shopify://shop_images/Elegant_Tan_Leather_Handbag_cc55311e-2710-42f0-90a1-80dafd28ea53.jpg",
             "alt_text": "Add a description for accessibility and SEO"
           }
         },
         "image_Pdj4gR": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Luxurious_Black_Leather_Bag_on_Podium.jpg",
+            "image": "shopify://shop_images/Luxurious_Black_Leather_Bag_on_Podium.jpg",
             "alt_text": "Add a description for accessibility and SEO"
           }
         },
         "image_UKGEyB": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FQh8KElyeYBm96NhSjIVMur5pegIec2RgEMZwqmK_lg.png",
+            "image": "shopify://shop_images/FQh8KElyeYBm96NhSjIVMur5pegIec2RgEMZwqmK_lg.png",
             "alt_text": "Add a description for accessibility and SEO"
           }
         },
         "image_iLMYFk": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Detailed_View_of_Leather_Cardholder.jpg",
+            "image": "shopify://shop_images/Detailed_View_of_Leather_Cardholder.jpg",
             "alt_text": "Add a description for accessibility and SEO"
           }
         }
