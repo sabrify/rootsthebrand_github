@@ -3632,11 +3632,11 @@ details-disclosure > details {
 }
       @font-face{
   font-family: 'FreightDispProBlack_Regular';
-  src: url('{{ 'FreightDispProBlack_Regular.woff2' | asset_url }}') format('woff2');
-  src: url('{{ 'FreightDispProBlack_Regular.woff2' | asset_url }}') format('woff2'),
-        url('{{ 'FreightDispProBlack_Regular.woff' | asset_url }}') format('woff'),
-         url('{{ 'FreightDispProBlack_Regular.ttf' | asset_url }}') format('truetype'),
-        url('{{ 'FreightDispProBlack_Regular.eot' | asset_url }}') format('embedded-opentype');
+  src: url('./FreightDispProBlack_Regular.woff2') format('woff2');
+  src: url('./FreightDispProBlack_Regular.woff2') format('woff2'),
+        url('./FreightDispProBlack_Regular.woff') format('woff'),
+         url('./FreightDispProBlack_Regular.ttf') format('truetype'),
+        url('./FreightDispProBlack_Regular.eot') format('embedded-opentype');
             font-weight: 900;
     font-style: normal;
           font-display: swap; /* Ensures text is visible until the custom font loads */ ;
