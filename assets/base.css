@@ -3671,9 +3671,8 @@ h5,
 .h2,
 .h3,
 .h4,
-.h5{
-  font-family: 'LibreBaskerville-Bold' !important; 
-}
+.h5{font-family: 'LibreBaskerville-Bold' !important;}
+
 body{ font-family: "Geist_Regular" !important; }
 
 .button {font-family: "Geist_Medium" !important;}
