@@ -3618,8 +3618,8 @@ details-disclosure > details {
       };
       @font-face{
   font-family: 'FreightDispProBold_Regular';
-  src: url(https://cdn.shopify.com/s/files/1/0706/7746/3271/files/FreightDispProBold_Regular.woff2?v=1728300458) format(woff2),
-        url(https://cdn.shopify.com/s/files/1/0706/7746/3271/files/FreightDispProBold_Regular.woff?v=1728305815) format(woff),
+  src: url(https://cdn.shopify.com/s/files/1/0706/7746/3271/files/FreightDispProBold_Regular.woff2?v=1728300458) format('woff2'),
+        url(https://cdn.shopify.com/s/files/1/0706/7746/3271/files/FreightDispProBold_Regular.woff?v=1728305815) format('woff'),
         url(https://cdn.shopify.com/s/files/1/0706/7746/3271/files/FreightDispProBold_Regular.eot?v=1728305816) format('embedded-opentype'),
         url(https://cdn.shopify.com/s/files/1/0706/7746/3271/files/FreightDispProBold_Regular.ttf?v=1728305816) format('truetype'); 
       font-weight: bold;
