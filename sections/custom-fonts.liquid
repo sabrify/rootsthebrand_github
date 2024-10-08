@@ -57,112 +57,94 @@
         {% if apply_h1 %}
           h1 {
             font-family: '{{name}}' !important;
-            font-weight: {{custom_font_weight}} !important;
           }
         {% endif %}
         {% if apply_h2 %}
           h2 {
             font-family: '{{name}}' !important;
-            font-weight: {{custom_font_weight}} !important;
           }
         {% endif %}
         {% if apply_h3 %}
           h3 {
             font-family: '{{name}}' !important;
-            font-weight: {{custom_font_weight}} !important;
           }
         {% endif %}
         {% if apply_h4 %}
           h4 {
             font-family: '{{name}}' !important;
-            font-weight: {{custom_font_weight}} !important;
           }
         {% endif %}
         {% if apply_h5 %}
           h5 {
             font-family: '{{name}}' !important;
-            font-weight: {{custom_font_weight}} !important;
           }
         {% endif %}
         {% if apply_h6 %}
           h6 {
             font-family: '{{name}}' !important;
-            font-weight: {{custom_font_weight}} !important;
           }
         {% endif %}
         {% if apply_p %}
           p {
             font-family: '{{name}}' !important;
-            font-weight: {{custom_font_weight}} !important;
           }
         {% endif %}
         {% if apply_a %}
           a {
             font-family: '{{name}}' !important;
-            font-weight: {{custom_font_weight}} !important;
           }
         {% endif %}
         {% if apply_input %}
           input {
             font-family: '{{name}}' !important;
-            font-weight: {{custom_font_weight}} !important;
           }
         {% endif %}
 
         {% if apply_label %}
           label {
             font-family: '{{name}}' !important;
-            font-weight: {{custom_font_weight}} !important;
           }
         {% endif %}
         {% if apply_legend %}
           legend {
             font-family: '{{name}}' !important;
-            font-weight: {{custom_font_weight}} !important;
           }
         {% endif %}
         {% if apply_button %}
           button {
             font-family: '{{name}}' !important;
-            font-weight: {{custom_font_weight}} !important;
           }
         {% endif %}
         {% if apply_summary %}
           summary{
             font-family: '{{name}}' !important;
-            font-weight: {{custom_font_weight}} !important;
           }
         {% endif %}
         {% if apply_select %}
           select {
             font-family: '{{name}}' !important;
-            font-weight: {{custom_font_weight}} !important;
           }
         {% endif %}
         {% if apply_option %}
           option{
             font-family: '{{name}}' !important;
-            font-weight: {{custom_font_weight}} !important;
           }
         {% endif %}
         {% if apply_small %}
           small{
             font-family: '{{name}}' !important;
-            font-weight: {{custom_font_weight}} !important;
           }
         {% endif %}
 
         {% if apply_span %}
           span{
             font-family: '{{name}}' !important;
-            font-weight: {{custom_font_weight}} !important;
           }
         {% endif %}
 
         {% if apply_custom != "" and apply_custom != blank %}
           {{ apply_custom }}{
             font-family: '{{name}}' !important;
-            font-weight: {{custom_font_weight}} !important;
           }
         {% endif %}
       {% endif %}
@@ -195,26 +177,7 @@
           "label": "Font name",
           "default": "customfont"
         },
-        {
-          "type": "select",
-          "id": "custom_font_weight",
-          "label": "Font weight",
-          "default": "none",
-          "options": [
-            {
-              "value": "none",
-              "label": "None"
-            },
-            {
-              "value": "normal",
-              "label": "Normal"
-            },
-            {
-              "value": "bold",
-              "label": "Bold"
-            }
-          ]
-        },
+       
         {
           "type": "text",
           "id": "custom_font_url",
