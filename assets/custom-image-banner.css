@@ -35,7 +35,7 @@
 }
    .banner_text_and_button .banner__text.rte.body p{
       font-size: 18px;
-      font-family: "Geist_Regular" !important;
+      font-family: "Geist-Regular" !important;
       color: white;
       font-weight: 500 !important;
       margin-bottom: 32px;
@@ -87,7 +87,7 @@ font-family: "FreightDispPro_Bold" !important;
    font-size: 18px;
    color: white;
    margin-bottom: 32px;
-  font-family: "Geist_Regular" !important;
+  font-family: "Geist-Regular" !important;
   font-weight: 500;
 
  }
@@ -145,7 +145,7 @@ font-family: "FreightDispPro_Bold" !important;
     font-size: 16px;
     line-height: 150%;
     color: white;
-    font-family: "Geist_Regular" !important;
+    font-family: "Geist-Regular" !important;
   }
 
   .button,
