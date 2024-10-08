@@ -137,7 +137,7 @@ font-family: "FreightDispPro_Bold" !important;
     .banner_text_and_button{
     margin-top: 0;
   }
-  .banner__text{
+  .banner__text p{
     margin-bottom: 32px;
     max-width: 30ch;
     white-space:normal;
