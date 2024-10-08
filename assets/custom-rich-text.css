@@ -5,7 +5,7 @@
   font-family: "Geist_Regular" !important;
 }
 
-.rich-text__heading.rte.inline-richtext.h1.scroll-trigger.animate--slide-in{
+.rich-text__heading.rte.inline-richtext.h1.scroll-trigger.animate--slide-in h2{
     font-family: "FreightDispProBold_Regular" !important ;
     font-size: 40px ;
     font-weight: 600 ;
