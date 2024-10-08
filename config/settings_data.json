@@ -147,7 +147,6 @@
             "type": "image",
             "settings": {
               "name": "FreightDispPro_Bold",
-              "custom_font_weight": "normal",
               "custom_font_url": "https://cdn.shopify.com/s/files/1/0706/7746/3271/files/FreightDispProBold_Regular.woff?v=1728305815",
               "apply_h1": true,
               "apply_h2": true,
@@ -172,8 +171,7 @@
           "image_LRcQBR": {
             "type": "image",
             "settings": {
-              "name": "Geist_Regular",
-              "custom_font_weight": "normal",
+              "name": "Geist-Regular",
               "custom_font_url": "https://cdn.shopify.com/s/files/1/0706/7746/3271/files/Geist-Regular.ttf?v=1728323726",
               "apply_h1": false,
               "apply_h2": false,
@@ -199,7 +197,6 @@
             "type": "image",
             "settings": {
               "name": "Geist_Medium",
-              "custom_font_weight": "none",
               "custom_font_url": "https://cdn.shopify.com/s/files/1/0706/7746/3271/files/Geist-Medium.ttf?v=1728323726",
               "apply_h1": false,
               "apply_h2": false,
@@ -225,7 +222,6 @@
             "type": "image",
             "settings": {
               "name": "Geist_SemiBold",
-              "custom_font_weight": "bold",
               "custom_font_url": "https://cdn.shopify.com/s/files/1/0706/7746/3271/files/Geist-SemiBold.ttf?v=1728323726",
               "apply_h1": false,
               "apply_h2": false,
