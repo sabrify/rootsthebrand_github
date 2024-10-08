@@ -33,7 +33,7 @@
     margin-right: -700px;
  
 }
-   .banner__text p{
+   .banner__text.rte.body
       font-size: 18px;
       font-family: "Geist_Regular" !important;
       color: white;
