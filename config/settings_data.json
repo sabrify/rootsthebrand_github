@@ -171,7 +171,7 @@
           "image_LRcQBR": {
             "type": "image",
             "settings": {
-              "name": "Geist-Regular",
+              "name": "Geist_Regular",
               "custom_font_url": "https://cdn.shopify.com/s/files/1/0706/7746/3271/files/Geist_Regular.woff2?v=1728513233",
               "apply_h1": false,
               "apply_h2": false,
@@ -196,8 +196,8 @@
           "image_twHK4i": {
             "type": "image",
             "settings": {
-              "name": "Geist-Medium",
-              "custom_font_url": "https://cdn.shopify.com/s/files/1/0706/7746/3271/files/Geist-Medium.ttf?v=1728323726",
+              "name": "Geist_Medium",
+              "custom_font_url": "https://cdn.shopify.com/s/files/1/0706/7746/3271/files/Geist_Medium.woff2?v=1728513233",
               "apply_h1": false,
               "apply_h2": false,
               "apply_h3": false,
