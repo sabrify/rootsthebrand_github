@@ -4,7 +4,7 @@
 
     {% for block in items %}
       {% assign name = block.settings.name %}
-      {% assign url = block.settings.custom_font_url %}
+      {% assign url = block.settings.custom_font_url  %}
       {% assign custom_font_weight = block.settings.custom_font_weight %}
       {% assign customFontStyle = block.settings.custom_font_style %}
       {% assign apply_h1 = block.settings.apply_h1 %}
@@ -26,23 +26,24 @@
       {% assign apply_option = block.settings.apply_option %}
       {% assign apply_small = block.settings.apply_small %}
 
+
       {% if url != blank and url != "" %}
+
         {% capture _font_type %}
-          {% if url contains ".otf" %}
-          opentype
-          {% elsif url contains ".ttf" %}
-          falsetype
-          {% elsif url contains ".svg" %}
-          svg
-          {% elsif url contains ".woff2" %}
-          woff2
-          {% else %}
-          woff
-          {% endif %}
+        {% if url contains ".otf" %}
+        opentype
+        {% elsif url contains ".ttf" %}
+        falsetype
+        {% elsif url contains ".svg" %}
+        svg
+        {% elsif url contains ".woff2" %}
+        woff2
+        {% else %}
+        woff
+        {% endif %}
         {% endcapture %}
 
         {% assign font_type = _font_type | strip %}
-
         @font-face {
           font-family: '{{ name }}';
           src: url({{ url }}) format('{{ font_type }}');
@@ -50,24 +51,114 @@
           font-style: {{ customFontStyle }};
           {% endif %}
           {% if custom_font_weight != 'none' %}
-          font-weight: {{ custom_font_weight }};
+          font-weight: {{ customFontStyle }};
           {% endif %}
         }
-
         {% if apply_h1 %}
           h1 {
             font-family: '{{name}}' !important;
           }
         {% endif %}
-        {# Add the rest of the conditions here as needed #}
+        {% if apply_h2 %}
+          h2 {
+            font-family: '{{name}}' !important;
+          }
+        {% endif %}
+        {% if apply_h3 %}
+          h3 {
+            font-family: '{{name}}' !important;
+          }
+        {% endif %}
+        {% if apply_h4 %}
+          h4 {
+            font-family: '{{name}}' !important;
+          }
+        {% endif %}
+        {% if apply_h5 %}
+          h5 {
+            font-family: '{{name}}' !important;
+          }
+        {% endif %}
+        {% if apply_h6 %}
+          h6 {
+            font-family: '{{name}}' !important;
+          }
+        {% endif %}
+        {% if apply_p %}
+          p {
+            font-family: '{{name}}' !important;
+          }
+        {% endif %}
+        {% if apply_a %}
+          a {
+            font-family: '{{name}}' !important;
+          }
+        {% endif %}
+        {% if apply_input %}
+          input {
+            font-family: '{{name}}' !important;
+          }
+        {% endif %}
 
+        {% if apply_label %}
+          label {
+            font-family: '{{name}}' !important;
+          }
+        {% endif %}
+        {% if apply_legend %}
+          legend {
+            font-family: '{{name}}' !important;
+          }
+        {% endif %}
+        {% if apply_button %}
+          button {
+            font-family: '{{name}}' !important;
+          }
+        {% endif %}
+        {% if apply_summary %}
+          summary{
+            font-family: '{{name}}' !important;
+          }
+        {% endif %}
+        {% if apply_select %}
+          select {
+            font-family: '{{name}}' !important;
+          }
+        {% endif %}
+        {% if apply_option %}
+          option{
+            font-family: '{{name}}' !important;
+          }
+        {% endif %}
+        {% if apply_small %}
+          small{
+            font-family: '{{name}}' !important;
+          }
+        {% endif %}
+
+        {% if apply_span %}
+          span{
+            font-family: '{{name}}' !important;
+          }
+        {% endif %}
+
+        {% if apply_custom != "" and apply_custom != blank %}
+          {{ apply_custom }}{
+            font-family: '{{name}}' !important;
+          }
+        {% endif %}
       {% endif %}
     {% endfor %}
   </style>
 {% endif %}
+
+
+
+{% schema %}
 {
   "name": "Custom Font",
   "settings": [
+   
     {
       "type": "checkbox",
       "id": "enable",
@@ -78,7 +169,7 @@
   "blocks": [
     {
       "type": "image",
-      "name": "Font Block",
+      "name": "Font",
       "settings": [
         {
           "type": "text",
@@ -86,14 +177,11 @@
           "label": "Font name",
           "default": "customfont"
         },
+       
         {
           "type": "text",
           "id": "custom_font_url",
           "label": "Font URL"
-        },
-        {
-          "type": "paragraph",
-          "content": "Selected font: {{ block.settings.name }}"
         },
         {
           "type": "paragraph",
@@ -110,9 +198,105 @@
           "id": "apply_h2",
           "label": "H2",
           "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "apply_h3",
+          "label": "H3",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "apply_h4",
+          "label": "H4",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "apply_h5",
+          "label": "H5",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "apply_h6",
+          "label": "H6",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "apply_span",
+          "label": "<span> tags",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "apply_p",
+          "label": "<p> tags",
+          "default": false
+        },
+         {
+          "type": "checkbox",
+          "id": "apply_a",
+          "label": "<a> tags",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "apply_input",
+          "label": "<input> tags",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "apply_label",
+          "label": "<label> tags",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "apply_legend",
+          "label": "<legend> tags",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "apply_button",
+          "label": "<button> tags",
+          "default": false
+        },
+         {
+          "type": "checkbox",
+          "id": "apply_summary",
+          "label": "<summary> tags",
+          "default": false
+        },
+         {
+          "type": "checkbox",
+          "id": "apply_select",
+          "label": "<select> tags",
+          "default": false
+        },
+         {
+          "type": "checkbox",
+          "id": "apply_option",
+          "label": "<option> tags",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "apply_small",
+          "label": "<small> tags",
+          "default": false
+        },
+        {
+          "type": "textarea",
+          "id": "apply_custom",
+          "label": "CSS Selectors",
+          "info": "Apply font to custom CSS selectors"
         }
-        {# Add the rest of the settings here as needed #}
       ]
     }
   ]
 }
+{% endschema %}
