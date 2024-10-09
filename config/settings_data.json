@@ -221,7 +221,7 @@
           "image_ixThQB": {
             "type": "image",
             "settings": {
-              "name": "Geist_SemiBold",
+              "name": "Geist-SemiBold",
               "custom_font_url": "https://cdn.shopify.com/s/files/1/0706/7746/3271/files/Geist-SemiBold.ttf?v=1728323726",
               "apply_h1": false,
               "apply_h2": false,
@@ -240,7 +240,7 @@
               "apply_select": false,
               "apply_option": false,
               "apply_small": false,
-              "apply_custom": ".rich-text__caption.subtitle.subtitle--medium.scroll-trigger.animate--slide-in"
+              "apply_custom": ".rich-text__caption.subtitle.subtitle--medium.scroll-trigger.animate--slide-in p"
             }
           }
         },
