@@ -90,7 +90,7 @@
     text-align: start;
       font-size: 48px;
     z-index: 1;
-    font-family: "FreightDispProBold_Regular" !important;
+    font-family: FreightDispProBold_Regular !important;
     line-height: 100%;
 }
 
@@ -120,7 +120,7 @@
         /* font-weight: 600; */
         margin-top: 10px;
       line-height: 100%;
-          font-family: "FreightDispProBold_Regular" !important;
+          font-family: FreightDispProBold_Regular !important;
 
     }
 }
@@ -134,7 +134,7 @@
         padding: 0 10px;
         font-size: 40px;
         /* font-weight: 600; */
-          font-family: "FreightDispProBold_Regular" !important;
+          font-family: FreightDispProBold_Regular !important;
 
       
       line-height: 100%;
