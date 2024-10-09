@@ -139,6 +139,7 @@
       line-height: 100%;
     }
   .card .get-it {
-    text-align: start
+    text-align: start;
+    margin: 0 auto;
   }
 }
