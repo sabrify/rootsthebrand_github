@@ -39,7 +39,7 @@
       font-weight: 400 !important;
       margin-bottom: 32px;
  }
-      .button,
+.button,
 .button::after {
   outline: none;
   border-radius: 4px;
@@ -148,7 +148,7 @@
     /* font-family: "Geist-Regular" !important; */
   }
 
-  .button,
+.banner__buttons .button,
 .button::after {
   margin-top: 32px;
   outline: none;
