@@ -169,8 +169,13 @@
   "blocks": [
     {
       "type": "image",
-      "name":"{{ block.settings.name }}",
-      "settings": [
+      "name": "Font",
+      "settings": [{
+               "type": "text",
+          "id": "block_label",   // The user will enter the label here, e.g., "Roboto Font"
+          "label": "Block Label (Enter the font name for easy reference)",
+          "default": "Enter Font Name"
+        },
         {
           "type": "text",
           "id": "name",
