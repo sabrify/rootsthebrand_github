@@ -230,7 +230,7 @@
               "apply_h5": false,
               "apply_h6": false,
               "apply_span": false,
-              "apply_p": true,
+              "apply_p": false,
               "apply_a": false,
               "apply_input": false,
               "apply_label": false,
@@ -240,7 +240,7 @@
               "apply_select": false,
               "apply_option": false,
               "apply_small": false,
-              "apply_custom": ""
+              "apply_custom": ".rich-text__caption"
             }
           }
         },
