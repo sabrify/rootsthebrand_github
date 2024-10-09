@@ -111,8 +111,8 @@
 /* Mobile (401px to 750px) */
 @media screen and (min-width: 401px) and (max-width: 750px) {
     #Slider-template--18106372194535__collection_list_AXhxTd .card__heading a.full-unstyled-link  {
-        /* min-width: 255.06px; */
-      min-width: 40%;
+        min-width: 255.06px;
+      /* min-width: 40%; */
       left: 40%;
       padding: 10px;
       font-size: 40px;
