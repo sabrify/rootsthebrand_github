@@ -146,7 +146,7 @@
           "image_DLWMz7": {
             "type": "image",
             "settings": {
-              "name": "'FreightDispPro_Bold'",
+              "name": "FreightDispPro_Bold",
               "custom_font_url": "https://cdn.shopify.com/s/files/1/0706/7746/3271/files/FreightDispProBold_Regular.woff?v=1728305815",
               "apply_h1": true,
               "apply_h2": true,
