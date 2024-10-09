@@ -128,15 +128,12 @@
 @media screen and (max-width: 400px) {
     #Slider-template--18106372194535__collection_list_AXhxTd .card__heading a.full-unstyled-link {
         /* min-width: 209.85px; */
-      min-width: 60%;
+        min-width: 60%;
         top: 60%;
         left: 50% !important;
         padding: 0 10px;
         font-size: 40px;
         /* font-weight: 600; */
-      
-
-      
       line-height: 100%;
     }
 }
