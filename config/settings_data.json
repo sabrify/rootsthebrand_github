@@ -247,7 +247,7 @@
             "type": "image",
             "settings": {
               "block_label": "Font nme",
-              "name": "customfont",
+              "name": "font name a",
               "custom_font_url": "",
               "apply_h1": false,
               "apply_h2": false,
