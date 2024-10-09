@@ -148,7 +148,7 @@
     /* font-family: "Geist-Regular" !important; */
   }
 
- banner__buttons .button,
+.button,
 .button::after {
   margin-top: 32px;
   outline: none;
