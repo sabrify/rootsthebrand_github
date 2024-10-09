@@ -134,7 +134,8 @@
       align-items: start;
       text-align: start;
       text-align: start;
-      min-width: 100%;
+      margin: 0 auto;
+      min-width: 50%;
         top: 60%;
         left: 50% !important;
         padding: 0 10px;
