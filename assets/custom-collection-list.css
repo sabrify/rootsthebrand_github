@@ -97,7 +97,7 @@
 /* Tablet */
 @media screen and (min-width: 751px) and (max-width: 987px) {
   #Slider-template--18106372194535__collection_list_AXhxTd-1 img, #Slider-template--18106372194535__collection_list_AXhxTd-2 img{
-    max-width: 10%;
+    max-width: 10vw;
     max-height: 100%;
   }
     #Slider-template--18106372194535__collection_list_AXhxTd .card__heading a.full-unstyled-link  {
