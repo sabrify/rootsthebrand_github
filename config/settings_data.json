@@ -240,7 +240,7 @@
               "apply_select": false,
               "apply_option": false,
               "apply_small": false,
-              "apply_custom": ".rich-text__caption"
+              "apply_custom": ".rich-text__caption.subtitle.subtitle--medium.scroll-trigger.animate--slide-in"
             }
           }
         },
