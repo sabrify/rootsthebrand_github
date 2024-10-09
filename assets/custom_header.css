@@ -1,5 +1,5 @@
 .header__inline-menu .list-menu .list-menu--inline li a{
-  font-family: "Geist-Regular";
+  font-family: "Geist-Regular" !important;
 }
 /* centers the menu items on desktop */
 @media screen and (max-width: 990px) {
