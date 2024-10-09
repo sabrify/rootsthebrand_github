@@ -1,8 +1,8 @@
-.header__inline-menu a{
-  font-family: "Geist-Regular" !important;
+.header__inline-menu a, .menu-drawer__navigation a{
+  font-family: "Geist_Regular" !important;
 }
 .buckscc-select-styled{
-font-family: "Geist-Medium" !important;
+font-family: "Geist_Medium" !important;
   
 }
 
