@@ -83,7 +83,7 @@
 
     #Slider-template--18106372194535__collection_list_AXhxTd .card__heading a.full-unstyled-link  {
     position: absolute;
-    min-width: 100%;
+    min-width: 60%;
     top: 70%; /* Position the card on the bottom */
     transform: translate(-50%, -50%);
     color: white;
@@ -128,7 +128,7 @@
 @media screen and (max-width: 400px) {
     #Slider-template--18106372194535__collection_list_AXhxTd .card__heading a.full-unstyled-link {
         /* min-width: 209.85px; */
-      min-width: 60%;
+      min-width: 100%;
         top: 60%;
         left: 50% !important;
         padding: 0 10px;
