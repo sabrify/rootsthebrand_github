@@ -128,14 +128,9 @@
 @media screen and (max-width: 400px) {
     #Slider-template--18106372194535__collection_list_AXhxTd .card__heading a.full-unstyled-link {
         /* min-width: 209.85px; */
-      display: flex;
-      flex-direction: column;
-      justify-content: start;
-      align-items: start;
-      text-align: start;
-      text-align: start;
       margin: 0 auto;
-      min-width: 50%;
+      text-align: center;
+      min-width: 100%;
         top: 60%;
         left: 50% !important;
         padding: 0 10px;
@@ -144,6 +139,7 @@
       line-height: 100%;
     }
   .card .get-it {
-    text-align: start;
+    text-align: start
+    
   }
 }
