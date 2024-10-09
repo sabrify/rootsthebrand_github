@@ -37,8 +37,8 @@
 width: 100%;
 }
 .newsletter-form__field-wrapper .field__input {
-    width: 100%;
-  padding: 4rem !important;
+    width: 80%;
+  padding-right: 4rem !important;
 }
 .email-button .button{
     max-width: 100%;
