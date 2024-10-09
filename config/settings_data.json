@@ -246,8 +246,32 @@
           "image_LYAwmD": {
             "type": "image",
             "settings": {
-              "block_label": "Font nme",
               "name": "font name a",
+              "custom_font_url": "",
+              "apply_h1": false,
+              "apply_h2": false,
+              "apply_h3": false,
+              "apply_h4": false,
+              "apply_h5": false,
+              "apply_h6": false,
+              "apply_span": false,
+              "apply_p": false,
+              "apply_a": false,
+              "apply_input": false,
+              "apply_label": false,
+              "apply_legend": false,
+              "apply_button": false,
+              "apply_summary": false,
+              "apply_select": false,
+              "apply_option": false,
+              "apply_small": false,
+              "apply_custom": ""
+            }
+          },
+          "image_RDkjnA": {
+            "type": "image",
+            "settings": {
+              "name": "customfont",
               "custom_font_url": "",
               "apply_h1": false,
               "apply_h2": false,
@@ -275,7 +299,8 @@
           "image_LRcQBR",
           "image_twHK4i",
           "image_ixThQB",
-          "image_LYAwmD"
+          "image_LYAwmD",
+          "image_RDkjnA"
         ],
         "settings": {
           "enable": true
