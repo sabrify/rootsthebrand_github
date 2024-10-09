@@ -1,6 +1,7 @@
 .rich-text__blocks p{
   color: #241E19 ;
   font-size: 16px;
+  font-weight: 400;
   line-height:150%;
   /* font-family: "Geist-Regular" !important; */
 }
@@ -8,8 +9,7 @@
 .rich-text__heading.rte.inline-richtext.h1.scroll-trigger.animate--slide-in h2{
     font-family: "FreightDispProBold_Regular" !important ;
     font-size: 40px ;
-    font-weight: 600 ;
-  line-height: 120%;
+    line-height: 120%;
   }
 
 .rich-text__caption.subtitle.subtitle--medium.scroll-trigger.animate--slide-in{
