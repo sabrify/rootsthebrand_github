@@ -99,13 +99,13 @@
     #Slider-template--18106372194535__collection_list_AXhxTd .card__heading a.full-unstyled-link  {
         /* min-width: 209.85px; */
       min-width: 50%;
-        left: 30%;
-        padding: 10px;
-        font-size: 42px;
-        /* font-weight: 600; */
-        margin-top: 10px;
+      left: 30%;
+      padding: 10px;
+      font-size: 42px;
+      /* font-weight: 600; */
+      margin-top: 10px;
       line-height: 100%;
-          font-family: "FreightDispProBold_Regular" !important;
+      font-family: "FreightDispProBold_Regular" !important;
 
     }
 }
