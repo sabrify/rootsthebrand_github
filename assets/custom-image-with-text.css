@@ -8,7 +8,7 @@
   /* font-family: "FreightDispProBold_Regular" !important; */
 }
 .image-with-text__text.rte.body{
-  font-size: 18px;
+  font-size: 18px !important;
   color: #241E19;
   /* font-family: "Geist-Regular" !important; */
   
