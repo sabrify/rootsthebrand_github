@@ -34,7 +34,7 @@
 }
    .banner_text_and_button .banner__text.rte.body p{
       font-size: 18px;
-      /* font-family: "Geist-Regular" !important;
+      /* font-family: "Geist_Regular" !important;
       color: white; */
       font-weight: 400 !important;
       margin-bottom: 32px;
@@ -86,7 +86,7 @@
    font-size: 18px;
    color: white;
    margin-bottom: 32px;
-  /* font-family: "Geist-Regular" !important; */
+  /* font-family: "Geist_Regular" !important; */
   font-weight: 400;
 
  }
@@ -145,7 +145,7 @@
     font-weight: 400;
     line-height: 150%;
     color: white;
-    /* font-family: "Geist-Regular" !important; */
+    /* font-family: "Geist_Regular" !important; */
   }
 
 .button,
