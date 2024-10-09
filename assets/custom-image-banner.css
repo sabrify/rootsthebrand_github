@@ -94,7 +94,7 @@
 .button::after {
   outline: none;
   border-radius: 4px;
-  /* font-family: "Geist-Medium" !important; */
+  font-family: "Geist-Medium" !important;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
