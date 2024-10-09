@@ -2,7 +2,7 @@
   color: #241E19 ;
   font-size: 16px;
   line-height:150%;
-  font-family: "Geist-Regular" !important;
+  /* font-family: "Geist-Regular" !important; */
 }
 
 .rich-text__heading.rte.inline-richtext.h1.scroll-trigger.animate--slide-in h2{
