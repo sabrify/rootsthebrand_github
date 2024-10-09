@@ -158,6 +158,7 @@
 {
   "name": "Custom Font",
   "settings": [
+   
     {
       "type": "checkbox",
       "id": "enable",
@@ -168,7 +169,7 @@
   "blocks": [
     {
       "type": "image",
-      "name": "Font",
+      "name": "{{ block.settings.name }}",
       "settings": [
         {
           "type": "text",
@@ -176,14 +177,11 @@
           "label": "Font name",
           "default": "customfont"
         },
+       
         {
           "type": "text",
           "id": "custom_font_url",
           "label": "Font URL"
-        },
-        {
-          "type": "paragraph",
-          "content": "<span style='font-family:{{name}};'>{{name}} font preview</span>"
         },
         {
           "type": "paragraph",
