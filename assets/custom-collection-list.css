@@ -130,7 +130,7 @@
         /* min-width: 209.85px; */
       display: flex;
       flex-direction: column;
-      
+      justify-content: start;
       align-items: center;
       text-align: center;
       min-width: 100%;
