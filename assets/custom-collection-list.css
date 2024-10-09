@@ -88,9 +88,8 @@
     transform: translate(-50%, -50%);
     color: white;
     text-align: start;
-      font-size: 48px;
+    font-size: 48px;
     z-index: 1;
-
     line-height: 100%;
 }
 
