@@ -165,7 +165,7 @@
               "apply_select": false,
               "apply_option": false,
               "apply_small": false,
-              "apply_custom": ""
+              "apply_custom": ".card__heading a.full-unstyled-link"
             }
           },
           "image_LRcQBR": {
