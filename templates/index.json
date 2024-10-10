@@ -354,7 +354,7 @@
         "badge_bmALef": {
           "type": "badge",
           "settings": {
-            "image": "shopify://shop_images/DeliveryIcon.svg",
+            "image": "shopify://shop_images/delivery-svgrepo-com_1.svg",
             "title": "Free Shipping",
             "alt_text": "Default Alt Text"
           }
@@ -362,7 +362,7 @@
         "badge_JTkefh": {
           "type": "badge",
           "settings": {
-            "image": "shopify://shop_images/PackageReturnedIcon.svg",
+            "image": "shopify://shop_images/return-box-cycle-svgrepo-com.svg",
             "title": "Easy Returns",
             "alt_text": "Trust Badge"
           }
@@ -370,7 +370,7 @@
         "badge_k6PmDz": {
           "type": "badge",
           "settings": {
-            "image": "shopify://shop_images/LockFilledIcon.svg",
+            "image": "shopify://shop_images/secure-payment-bank-svgrepo-com.svg",
             "title": "Secure Checkout",
             "alt_text": "Trust Badge"
           }
@@ -378,7 +378,7 @@
         "badge_kTDHKt": {
           "type": "badge",
           "settings": {
-            "image": "shopify://shop_images/ThumbsUpIcon.svg",
+            "image": "shopify://shop_images/thumb-up-svgrepo-com.svg",
             "title": "Satisfaction Guarantee",
             "alt_text": "Trust Badge"
           }
