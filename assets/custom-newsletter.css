@@ -89,8 +89,7 @@ width: 100%;
         align-items: center;
       width: 100%
     }
-    .email-button, .field__input,{
-      width: 100%;
+    .email-button, {
         flex-direction: column;
         align-items: center;
       box-sizing: border-box;
@@ -100,5 +99,17 @@ width: 100%;
         width: 100%;
     }
 
+.field__input, #SubscribeButton {
+  width: 100%;  /* Make the input and button fill the parent container */
+  box-sizing: border-box;  /* Include padding and borders in the element's width */
+  display: block;  /* Ensure both are treated as block elements */
+  margin: 0;  /* Remove any default margins */
+}
 
+/* Optional: To create some space between the input and button */
+.newsletter-form__field-wrapper {
+  display: flex;
+  flex-direction: column;  /* Stack input and button vertically */
+  gap: 10px;  /* Space between the input and button */
+}
 }
