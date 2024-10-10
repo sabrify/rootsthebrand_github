@@ -189,8 +189,8 @@
               "apply_summary": false,
               "apply_select": true,
               "apply_option": false,
-              "apply_small": false,
-              "apply_custom": "li\n.copyright__content"
+              "apply_small": true,
+              "apply_custom": "li"
             }
           },
           "image_twHK4i": {
