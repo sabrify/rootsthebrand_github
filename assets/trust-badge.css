@@ -21,13 +21,13 @@
 .logo-bar__item {
   max-width: 180px; /* Reduce the maximum width for images */
 }
-@media screen and (max-width: 990px){
+@media screen and (max-width: 400px){
   .logo-bar{
- gap: 0px;
-     /* display: grid;
+     gap: 0px;
+     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
   }
   .logo-bar__item img{
     min-width: 60px;
