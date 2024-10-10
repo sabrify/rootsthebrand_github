@@ -348,6 +348,24 @@
         "padding_bottom": 36
       }
     },
+    "trust_badge_3XCKi3": {
+      "type": "trust-badge",
+      "blocks": {
+        "badge_bmALef": {
+          "type": "badge",
+          "settings": {
+            "image": "shopify://shop_images/SxdtO2r0ajxAQSfdiEJ08Vdrp82dOsUkPeMiYh86_a7ff221a-6348-45cf-b7f0-cec71403c2e9.png",
+            "title": "trust badge",
+            "alt_text": "Default Alt Text"
+          }
+        }
+      },
+      "block_order": [
+        "badge_bmALef"
+      ],
+      "settings": {
+      }
+    },
     "newsletter_9TGDHb": {
       "type": "newsletter",
       "blocks": {
@@ -391,6 +409,7 @@
     "collection_list_AXhxTd",
     "image_with_text_7wCacy",
     "social_proof_B9MF9n",
+    "trust_badge_3XCKi3",
     "newsletter_9TGDHb"
   ]
 }
