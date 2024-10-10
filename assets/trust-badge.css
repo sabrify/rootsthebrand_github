@@ -31,5 +31,6 @@
   }
   .logo-bar__item img{
     min-width: 120px;
+    align-items: center;
   }
 }
