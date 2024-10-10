@@ -42,7 +42,7 @@
 
 /* Tablet */
 @media screen and (min-width: 751px) and (max-width: 987px) {
-    .card__heading a.full-unstyled-link {
+    .collection-list-wrapper .card__heading a.full-unstyled-link {
         min-width: 209.85px;
         left: 35%;
         padding: 10px;
@@ -54,7 +54,7 @@
 
 /* Mobile (401px to 750px) */
 @media screen and (min-width: 401px) and (max-width: 750px) {
-    .card__heading a.full-unstyled-link {
+   .collection-list-wrapper .card__heading a.full-unstyled-link {
         min-width: 255.06px;
         left: 35%;
         padding: 10px;
@@ -66,7 +66,7 @@
 
 /* Small Mobile (up to 400px) */
 @media screen and (max-width: 400px) {
-    .card__heading a.full-unstyled-link {
+   .collection-list-wrapper .card__heading a.full-unstyled-link {
         min-width: 209.85px;
         top: 83%;
         left: 32% !important;
