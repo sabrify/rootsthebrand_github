@@ -24,10 +24,10 @@
 @media screen and (max-width: 990px){
   .logo-bar{
  gap: 0px;
-     display: grid;
+     /* display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
   }
   .logo-bar__item img{
     min-width: 60px;
