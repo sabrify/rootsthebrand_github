@@ -5,7 +5,9 @@
         <div class="logo-bar">
           {% for block in section.blocks %}
           <div class="logo-bar__item">
-            <img src="{{ block.settings.image | img_url: '300x300' }}" alt="{{ block.settings.alt_text }}">
+            <img src="{{ block.settings.image | image_url: '300x300' }}" alt="{{ block.settings.alt_text }}"
+              height="100px"
+              width= "100px">
             <div class="content_title_logo">
               <p class="title_logo">{{ block.settings.title }}</p>
             </div>
