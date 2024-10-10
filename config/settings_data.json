@@ -190,7 +190,7 @@
               "apply_select": true,
               "apply_option": false,
               "apply_small": false,
-              "apply_custom": "li\n.copyright__content"
+              "apply_custom": "li;\n.copyright__content"
             }
           },
           "image_twHK4i": {
