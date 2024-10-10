@@ -354,7 +354,7 @@
         "badge_bmALef": {
           "type": "badge",
           "settings": {
-            "image": "shopify://shop_images/SxdtO2r0ajxAQSfdiEJ08Vdrp82dOsUkPeMiYh86_a7ff221a-6348-45cf-b7f0-cec71403c2e9.png",
+            "image": "shopify://shop_images/DeliveryIcon.svg",
             "title": "trust badge",
             "alt_text": "Default Alt Text"
           }
