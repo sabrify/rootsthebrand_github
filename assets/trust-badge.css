@@ -37,4 +37,7 @@
     align-items: center;
     margin: 0 auto;
   }
+  .logo-bar__item .title_logo{
+    margin: 0
+  }
 }
