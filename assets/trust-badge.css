@@ -20,6 +20,4 @@
   max-width: 60px; /* Reduce the maximum width for images */
   max-height: 60px; /* Limit the height for consistency */
 }
-.logo-bar__item svg {
-  fill: #8B4513; /* Brown color */
-}
+
