@@ -19,4 +19,9 @@
 .logo-bar__item {
   max-width: 60px; /* Reduce the maximum width for images */
 }
+@media screen and (max-wdith: 990px){
+  .logo-bar{
+    flex-direction: column;
+  }
+}
 
