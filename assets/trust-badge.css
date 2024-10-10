@@ -8,7 +8,7 @@
 }
 .logo-bar__item {
   display: inline-block;
-  width: 140px; /* Reduce the width */
+  width: 120px; /* Reduce the width */
   margin: 0 15px; /* Adjust the margins for smaller spacing */
 }
 
