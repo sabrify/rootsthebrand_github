@@ -45,7 +45,7 @@
 }
 @media screen and (max-width: 400px){
       .logo-bar__item{
-    width: 100px; /* Reduce the width */
+    width: 120px; /* Reduce the width */
 
   }
   
