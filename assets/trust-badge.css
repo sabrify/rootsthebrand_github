@@ -1,18 +1,10 @@
-.logo-bar {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    -webkit-justify-content: center;
-    -moz-justify-content: center;
-    justify-content: center;
-    -webkit-flex-wrap: wrap;
-    -moz-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    -moz-align-items: center;
-    align-items: center;
+.logo-bar{
+  padding-top: 27px;
+  padding-bottom: 27px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  gap: 20px;
 }
 .logo-bar__item {
   display: inline-block;
