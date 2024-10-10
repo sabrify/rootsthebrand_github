@@ -355,22 +355,40 @@
           "type": "badge",
           "settings": {
             "image": "shopify://shop_images/DeliveryIcon.svg",
-            "title": "trust badge",
+            "title": "Free Shipping",
             "alt_text": "Default Alt Text"
           }
         },
         "badge_JTkefh": {
           "type": "badge",
           "settings": {
-            "image": "shopify://shop_images/DeliveryIcon.svg",
-            "title": "Default Title",
+            "image": "shopify://shop_images/PackageReturnedIcon.svg",
+            "title": "Easy Returns",
+            "alt_text": "Trust Badge"
+          }
+        },
+        "badge_k6PmDz": {
+          "type": "badge",
+          "settings": {
+            "image": "shopify://shop_images/LockFilledIcon.svg",
+            "title": "Secure Checkout",
+            "alt_text": "Trust Badge"
+          }
+        },
+        "badge_kTDHKt": {
+          "type": "badge",
+          "settings": {
+            "image": "shopify://shop_images/ThumbsUpIcon.svg",
+            "title": "Satisfaction Guarantee",
             "alt_text": "Trust Badge"
           }
         }
       },
       "block_order": [
         "badge_bmALef",
-        "badge_JTkefh"
+        "badge_JTkefh",
+        "badge_k6PmDz",
+        "badge_kTDHKt"
       ],
       "settings": {
         "padding_top": 36,
