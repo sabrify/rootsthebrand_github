@@ -30,7 +30,7 @@
   .logo-bar{
  display: grid;
     grid-template-columns: 1fr 1fr;
-    min-width: 120px
+    min-width: 80px
   }
 }
 
