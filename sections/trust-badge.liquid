@@ -1,13 +1,31 @@
 <div id="shopify-section-logo-list" class="shopify-section logo-list-section">
   <div class="logo-list logo-list-logo-list section-standard">
-    <div class="content-for-layout page-width"> <!-- Use your theme's width container -->
+    <div class="page-width section-{{ section.id }}-padding">
       <div class="wrapper">
         <div class="logo-bar">
           {% for block in section.blocks %}
           <div class="logo-bar__item">
-            <img src="{{ block.settings.image | image_url: '300x300' }}" alt="{{ block.settings.alt_text }}"
-              height="100px"
-              width= "100px">
+            <div class="media media--transparent ratio" 
+              {% if block.settings.image != blank %}
+                style="--ratio-percent: {{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%"
+              {% else %}
+                style="--ratio-percent: 100%"
+              {% endif %}
+            >
+              {%- if block.settings.image != blank -%}
+                {{
+                  block.settings.image
+                  | image_url: width: 3200
+                  | image_tag:
+                    sizes: '(min-width: 750px) 100px, 80px',
+                    widths: '50, 75, 100, 150, 200, 300',
+                    alt: block.settings.alt_text,
+                    loading: 'lazy'
+                }}
+              {%- else -%}
+                {{ 'placeholder' | placeholder_svg_tag: 'placeholder-svg' }}
+              {%- endif -%}
+            </div>
             <div class="content_title_logo">
               <p class="title_logo">{{ block.settings.title }}</p>
             </div>
@@ -22,7 +40,28 @@
 {% schema %}
 {
   "name": "Trust Badges",
-  "settings": [],
+  "settings": [
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Top Padding",
+      "default": 36,
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Bottom Padding",
+      "default": 36,
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px"
+    }
+  ],
   "blocks": [
     {
       "type": "badge",
@@ -43,7 +82,7 @@
           "type": "text",
           "id": "alt_text",
           "label": "Image Alt Text",
-          "default": "Default Alt Text"
+          "default": "Trust Badge"
         }
       ]
     }
