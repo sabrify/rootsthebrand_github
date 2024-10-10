@@ -1,6 +1,56 @@
+<div id="shopify-section-logo-list" class="shopify-section logo-list-section">
+  <div class="logo-list logo-list-logo-list section-standard">
+    <div class="content-for-layout page-width"> <!-- Use your theme's width container -->
+      <div class="wrapper">
+        <div class="logo-bar">
+          {% for block in section.blocks %}
+          <div class="logo-bar__item">
+            <img src="{{ block.settings.image | img_url: '300x300' }}" alt="{{ block.settings.alt_text }}">
+            <div class="content_title_logo">
+              <p class="title_logo">{{ block.settings.title }}</p>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Trust Badges",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "badge",
+      "name": "Trust Badge",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Badge Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Default Title"
+        },
+        {
+          "type": "text",
+          "id": "alt_text",
+          "label": "Image Alt Text",
+          "default": "Default Alt Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Trust Badge Section",
+      "category": "Custom"
+    }
+  ]
+}
 {% endschema %}
