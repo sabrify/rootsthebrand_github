@@ -27,6 +27,6 @@
   box-shadow: none; /* Remove the shadow */
   z-index: -1;
 }
-.quantity__input{
+.quantity__input .value{
   font-width: 600px;
 }
