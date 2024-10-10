@@ -38,6 +38,6 @@
     margin: 0 auto;
   }
   .logo-bar__item .title_logo{
-    margin: 0
+    margin: 0 !important;
   }
 }
