@@ -16,8 +16,7 @@
   margin-top: 5px; /* Adjust spacing between image and title */
 }
 
-.logo-bar__item img {
+.logo-bar__item {
   max-width: 60px; /* Reduce the maximum width for images */
   max-height: 60px; /* Limit the height for consistency */
-  colro: brown;
 }
