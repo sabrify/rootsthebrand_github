@@ -36,6 +36,8 @@
     .logo-bar__item{
     align-items: center;
     margin: 0 auto;
+        width: 100px; /* Reduce the width */
+
   }
   .logo-bar__item .title_logo{
     margin: 0 !important;
