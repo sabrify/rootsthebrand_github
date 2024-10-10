@@ -1,4 +1,6 @@
-.shopify-payment-button__button.shopify-payment-button__button--unbranded::before, .shopify-payment-button__button.shopify-payment-button__button--unbranded::before {
+.shopify-payment-button__button.shopify-payment-button__button--unbranded,
+.shopify-payment-button__button.shopify-payment-button__button--unbranded::before,
+.shopify-payment-button__button.shopify-payment-button__button--unbranded::after  {
     border-radius: 4px !important;
   box-shadow: none;
 }
