@@ -8,18 +8,18 @@
 }
 .logo-bar__item {
   display: inline-block;
-  width: 80px; /* Reduce the width */
+  width: 180px; /* Reduce the width */
   margin: 0 15px; /* Adjust the margins for smaller spacing */
 }
 
 .title_logo {
-  font-size: 12px; /* Smaller font size for the title */
+  font-size: 14px; /* Smaller font size for the title */
   text-align: center;
   margin-top: 5px; /* Adjust spacing between image and title */
 }
 
 .logo-bar__item {
-  max-width: 60px; /* Reduce the maximum width for images */
+  max-width: 180px; /* Reduce the maximum width for images */
 }
 @media screen and (max-width: 990px){
   .logo-bar{
