@@ -8,7 +8,7 @@
 .card__inner, .card__media{
   border-radius: 4px !important;
 }
-.card__heading a.full-unstyled-link {
+.collection-list-wrapper .card__heading a.full-unstyled-link {
     position: absolute;
     top: 80%; /* Position the card on the bottom */
     transform: translate(-50%, -50%);
