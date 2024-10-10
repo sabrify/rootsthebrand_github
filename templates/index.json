@@ -358,12 +358,23 @@
             "title": "trust badge",
             "alt_text": "Default Alt Text"
           }
+        },
+        "badge_JTkefh": {
+          "type": "badge",
+          "settings": {
+            "image": "shopify://shop_images/DeliveryIcon.svg",
+            "title": "Default Title",
+            "alt_text": "Trust Badge"
+          }
         }
       },
       "block_order": [
-        "badge_bmALef"
+        "badge_bmALef",
+        "badge_JTkefh"
       ],
       "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "newsletter_9TGDHb": {
