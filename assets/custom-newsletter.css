@@ -87,6 +87,7 @@ width: 100%;
     .email-button-text{
         margin-top: 8px;
         align-items: center;
+      width: 100%
     }
     .email-button{
         flex-direction: column;
