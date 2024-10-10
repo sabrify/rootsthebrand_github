@@ -77,7 +77,7 @@ width: 100%;
     .heading-subheading{
         justify-content: center;
         align-items: center;
-        /* margin: 0 auto; */
+        margin: 0;
     text-align: start;
     }
     .newsletter__wrapper, .email-button{
