@@ -1,3 +1,4 @@
 .shopify-payment-button__button.shopify-payment-button__button--unbranded {
-    border-radius: 14px !important;
+    border-radius: 4px !important;
+  box-shadow: none;
 }
