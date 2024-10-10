@@ -351,10 +351,18 @@
     "trust_badge_3XCKi3": {
       "type": "trust-badge",
       "blocks": {
+        "badge_8KEPVB": {
+          "type": "badge",
+          "settings": {
+            "image": "shopify://shop_images/worldwide_175x_b1c0a1a5-d1e7-406e-af8b-0baaa1c19d17.webp",
+            "title": "Worldwide Shipping",
+            "alt_text": "Trust Badge"
+          }
+        },
         "badge_bmALef": {
           "type": "badge",
           "settings": {
-            "image": "shopify://shop_images/delivery-svgrepo-com_1.svg",
+            "image": "shopify://shop_images/shipping_180x_b6ff89dd-c0e2-4c68-bde4-5232258ddf80.webp",
             "title": "Free Shipping",
             "alt_text": "Default Alt Text"
           }
@@ -362,33 +370,34 @@
         "badge_JTkefh": {
           "type": "badge",
           "settings": {
-            "image": "shopify://shop_images/return-box-cycle-svgrepo-com.svg",
-            "title": "Easy Returns",
-            "alt_text": "Trust Badge"
-          }
-        },
-        "badge_k6PmDz": {
-          "type": "badge",
-          "settings": {
-            "image": "shopify://shop_images/secure-payment-bank-svgrepo-com.svg",
-            "title": "Secure Checkout",
+            "image": "shopify://shop_images/returns_180x_8267fb0c-3850-47b7-a4dc-6e3f8d5229ec.webp",
+            "title": "6o Days Returns",
             "alt_text": "Trust Badge"
           }
         },
         "badge_kTDHKt": {
           "type": "badge",
           "settings": {
-            "image": "shopify://shop_images/thumb-up-svgrepo-com.svg",
-            "title": "Satisfaction Guarantee",
+            "image": "shopify://shop_images/warranty_177x_346b2ebe-b8a4-42cf-bafb-14bea20b8c64.webp",
+            "title": "1 Year Warranty",
+            "alt_text": "Trust Badge"
+          }
+        },
+        "badge_k6PmDz": {
+          "type": "badge",
+          "settings": {
+            "image": "shopify://shop_images/payment_180x_95af131e-ec91-4ec1-85ca-511fe16052bc.webp",
+            "title": "Secure Checkout",
             "alt_text": "Trust Badge"
           }
         }
       },
       "block_order": [
+        "badge_8KEPVB",
         "badge_bmALef",
         "badge_JTkefh",
-        "badge_k6PmDz",
-        "badge_kTDHKt"
+        "badge_kTDHKt",
+        "badge_k6PmDz"
       ],
       "settings": {
         "padding_top": 36,
