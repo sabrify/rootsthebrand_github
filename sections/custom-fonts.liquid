@@ -1,41 +1,10 @@
 {% if section.settings.enable %}
   <style data-custom-fonts>
-    /* Font 1: FreightDispPro_Bold */
-    @font-face {
-      font-family: 'FreightDispPro_Bold';
-      src: url('https://cdn.shopify.com/s/files/1/0706/7746/3271/files/FreightDispProBold_Regular.woff?v=1728305815') format('woff');
-      font-style: normal;
-      font-weight: 700;
-    }
-
-    /* Font 2: Geist_Regular */
-    @font-face {
-      font-family: 'Geist_Regular';
-      src: url('https://cdn.shopify.com/s/files/1/0706/7746/3271/files/Geist_Regular.woff2?v=1728513233') format('woff2');
-      font-style: normal;
-      font-weight: 400;
-    }
-
-    /* Font 3: Geist_Medium */
-    @font-face {
-      font-family: 'Geist_Medium';
-      src: url('https://cdn.shopify.com/s/files/1/0706/7746/3271/files/Geist_Medium.woff2?v=1728513233') format('woff2');
-      font-style: normal;
-      font-weight: 500;
-    }
-
-    /* Font 4: Geist_SemiBold */
-    @font-face {
-      font-family: 'Geist_SemiBold';
-      src: url('https://cdn.shopify.com/s/files/1/0706/7746/3271/files/Geist_SemiBold.woff2?v=1728513233') format('woff2');
-      font-style: normal;
-      font-weight: 600;
-    }
-
-    {% assign items = section.blocks | reverse %}
+    {% assign items = section.blocks | reverse  %}
 
     {% for block in items %}
       {% assign name = block.settings.name %}
+      {% assign url = block.settings.custom_font_url  %}
       {% assign custom_font_weight = block.settings.custom_font_weight %}
       {% assign customFontStyle = block.settings.custom_font_style %}
       {% assign apply_h1 = block.settings.apply_h1 %}
@@ -57,97 +26,125 @@
       {% assign apply_option = block.settings.apply_option %}
       {% assign apply_small = block.settings.apply_small %}
 
-      /* Check for URL and apply font */
-      {% if name != blank %}
+
+      {% if url != blank and url != "" %}
+
+        {% capture _font_type %}
+        {% if url contains ".otf" %}
+        opentype
+        {% elsif url contains ".ttf" %}
+        falsetype
+        {% elsif url contains ".svg" %}
+        svg
+        {% elsif url contains ".woff2" %}
+        woff2
+        {% else %}
+        woff
+        {% endif %}
+        {% endcapture %}
+
+        {% assign font_type = _font_type | strip %}
         @font-face {
           font-family: '{{ name }}';
+          src: url({{ url }}) format('{{ font_type }}');
+          {% if customFontStyle != 'none' %}
           font-style: {{ customFontStyle }};
-          font-weight: {{ custom_font_weight }};
+          {% endif %}
+          {% if custom_font_weight != 'none' %}
+          font-weight: {{ customFontStyle }};
+          {% endif %}
         }
-
         {% if apply_h1 %}
           h1 {
-            font-family: '{{ name }}' !important;
+            font-family: '{{name}}' !important;
           }
         {% endif %}
         {% if apply_h2 %}
           h2 {
-            font-family: '{{ name }}' !important;
+            font-family: '{{name}}' !important;
           }
         {% endif %}
         {% if apply_h3 %}
           h3 {
-            font-family: '{{ name }}' !important;
+            font-family: '{{name}}' !important;
           }
         {% endif %}
         {% if apply_h4 %}
           h4 {
-            font-family: '{{ name }}' !important;
+            font-family: '{{name}}' !important;
           }
         {% endif %}
         {% if apply_h5 %}
           h5 {
-            font-family: '{{ name }}' !important;
+            font-family: '{{name}}' !important;
           }
         {% endif %}
         {% if apply_h6 %}
           h6 {
-            font-family: '{{ name }}' !important;
+            font-family: '{{name}}' !important;
           }
         {% endif %}
         {% if apply_p %}
           p {
-            font-family: '{{ name }}' !important;
+            font-family: '{{name}}' !important;
           }
         {% endif %}
         {% if apply_a %}
           a {
-            font-family: '{{ name }}' !important;
-          }
-        {% endif %}
-        {% if apply_span %}
-          span {
-            font-family: '{{ name }}' !important;
+            font-family: '{{name}}' !important;
           }
         {% endif %}
         {% if apply_input %}
           input {
-            font-family: '{{ name }}' !important;
+            font-family: '{{name}}' !important;
           }
         {% endif %}
+
         {% if apply_label %}
           label {
-            font-family: '{{ name }}' !important;
+            font-family: '{{name}}' !important;
           }
         {% endif %}
         {% if apply_legend %}
           legend {
-            font-family: '{{ name }}' !important;
+            font-family: '{{name}}' !important;
           }
         {% endif %}
         {% if apply_button %}
           button {
-            font-family: '{{ name }}' !important;
+            font-family: '{{name}}' !important;
           }
         {% endif %}
         {% if apply_summary %}
-          summary {
-            font-family: '{{ name }}' !important;
+          summary{
+            font-family: '{{name}}' !important;
           }
         {% endif %}
         {% if apply_select %}
           select {
-            font-family: '{{ name }}' !important;
+            font-family: '{{name}}' !important;
           }
         {% endif %}
         {% if apply_option %}
-          option {
-            font-family: '{{ name }}' !important;
+          option{
+            font-family: '{{name}}' !important;
           }
         {% endif %}
         {% if apply_small %}
-          small {
-            font-family: '{{ name }}' !important;
+          small{
+            font-family: '{{name}}' !important;
+          }
+        {% endif %}
+
+        {% if apply_span %}
+          span{
+            font-family: '{{name}}' !important;
+          }
+        {% endif %}
+
+        {% if apply_custom != "" and apply_custom != blank %}
+          {{ apply_custom }}{
+            font-family: '{{name}}' !important;
           }
         {% endif %}
       {% endif %}
@@ -155,121 +152,148 @@
   </style>
 {% endif %}
 
+
+
 {% schema %}
 {
-  "name": "Custom Fonts",
+  "name": "Custom Font",
   "settings": [
+   
     {
       "type": "checkbox",
       "id": "enable",
-      "label": "Enable Custom Fonts",
+      "label": "Enable",
       "default": true
     }
   ],
   "blocks": [
     {
-      "type": "font",
-      "name": "Custom Font Block",
+      "type": "image",
+      "name": "{{block.settings.label}}", 
       "settings": [
         {
           "type": "text",
           "id": "name",
-          "label": "Font Name"
+          "label": "Font name",
+          "default": "customfont"
         },
+       
         {
           "type": "text",
-          "id": "custom_font_weight",
-          "label": "Font Weight"
+          "id": "custom_font_url",
+          "label": "Font URL"
         },
         {
-          "type": "text",
-          "id": "custom_font_style",
-          "label": "Font Style"
+          "type": "paragraph",
+          "content": "Apply the custom font to the following HTML elements:"
         },
         {
           "type": "checkbox",
           "id": "apply_h1",
-          "label": "Apply to H1"
+          "label": "H1",
+          "default": false
         },
         {
           "type": "checkbox",
           "id": "apply_h2",
-          "label": "Apply to H2"
+          "label": "H2",
+          "default": false
         },
         {
           "type": "checkbox",
           "id": "apply_h3",
-          "label": "Apply to H3"
+          "label": "H3",
+          "default": false
         },
         {
           "type": "checkbox",
           "id": "apply_h4",
-          "label": "Apply to H4"
+          "label": "H4",
+          "default": false
         },
         {
           "type": "checkbox",
           "id": "apply_h5",
-          "label": "Apply to H5"
+          "label": "H5",
+          "default": false
         },
         {
           "type": "checkbox",
           "id": "apply_h6",
-          "label": "Apply to H6"
+          "label": "H6",
+          "default": false
         },
         {
           "type": "checkbox",
           "id": "apply_span",
-          "label": "Apply to Span"
+          "label": "<span> tags",
+          "default": false
         },
         {
           "type": "checkbox",
           "id": "apply_p",
-          "label": "Apply to Paragraph"
+          "label": "<p> tags",
+          "default": false
         },
-        {
+         {
           "type": "checkbox",
           "id": "apply_a",
-          "label": "Apply to Anchor (a)"
+          "label": "<a> tags",
+          "default": false
         },
         {
           "type": "checkbox",
           "id": "apply_input",
-          "label": "Apply to Input"
+          "label": "<input> tags",
+          "default": false
         },
         {
           "type": "checkbox",
           "id": "apply_label",
-          "label": "Apply to Label"
+          "label": "<label> tags",
+          "default": false
         },
         {
           "type": "checkbox",
           "id": "apply_legend",
-          "label": "Apply to Legend"
+          "label": "<legend> tags",
+          "default": false
         },
         {
           "type": "checkbox",
           "id": "apply_button",
-          "label": "Apply to Button"
+          "label": "<button> tags",
+          "default": false
         },
-        {
+         {
           "type": "checkbox",
           "id": "apply_summary",
-          "label": "Apply to Summary"
+          "label": "<summary> tags",
+          "default": false
         },
-        {
+         {
           "type": "checkbox",
           "id": "apply_select",
-          "label": "Apply to Select"
+          "label": "<select> tags",
+          "default": false
         },
-        {
+         {
           "type": "checkbox",
           "id": "apply_option",
-          "label": "Apply to Option"
+          "label": "<option> tags",
+          "default": false
         },
         {
           "type": "checkbox",
           "id": "apply_small",
-          "label": "Apply to Small"
+          "label": "<small> tags",
+          "default": false
+        },
+        {
+          "type": "textarea",
+          "id": "apply_custom",
+          "label": "CSS Selectors",
+          "info": "Apply font to custom CSS selectors"
         }
       ]
     }
