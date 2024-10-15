@@ -57,8 +57,14 @@
       {% assign apply_option = block.settings.apply_option %}
       {% assign apply_small = block.settings.apply_small %}
 
-      /* Use the custom fonts dynamically */
+      /* Check for URL and apply font */
       {% if name != blank %}
+        @font-face {
+          font-family: '{{ name }}';
+          font-style: {{ customFontStyle }};
+          font-weight: {{ custom_font_weight }};
+        }
+
         {% if apply_h1 %}
           h1 {
             font-family: '{{ name }}' !important;
@@ -89,11 +95,6 @@
             font-family: '{{ name }}' !important;
           }
         {% endif %}
-        {% if apply_span %}
-          span {
-            font-family: '{{ name }}' !important;
-          }
-        {% endif %}
         {% if apply_p %}
           p {
             font-family: '{{ name }}' !important;
@@ -101,6 +102,11 @@
         {% endif %}
         {% if apply_a %}
           a {
+            font-family: '{{ name }}' !important;
+          }
+        {% endif %}
+        {% if apply_span %}
+          span {
             font-family: '{{ name }}' !important;
           }
         {% endif %}
@@ -148,3 +154,125 @@
     {% endfor %}
   </style>
 {% endif %}
+
+{% schema %}
+{
+  "name": "Custom Fonts",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "enable",
+      "label": "Enable Custom Fonts",
+      "default": true
+    }
+  ],
+  "blocks": [
+    {
+      "type": "font",
+      "name": "Custom Font Block",
+      "settings": [
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Font Name"
+        },
+        {
+          "type": "text",
+          "id": "custom_font_weight",
+          "label": "Font Weight"
+        },
+        {
+          "type": "text",
+          "id": "custom_font_style",
+          "label": "Font Style"
+        },
+        {
+          "type": "checkbox",
+          "id": "apply_h1",
+          "label": "Apply to H1"
+        },
+        {
+          "type": "checkbox",
+          "id": "apply_h2",
+          "label": "Apply to H2"
+        },
+        {
+          "type": "checkbox",
+          "id": "apply_h3",
+          "label": "Apply to H3"
+        },
+        {
+          "type": "checkbox",
+          "id": "apply_h4",
+          "label": "Apply to H4"
+        },
+        {
+          "type": "checkbox",
+          "id": "apply_h5",
+          "label": "Apply to H5"
+        },
+        {
+          "type": "checkbox",
+          "id": "apply_h6",
+          "label": "Apply to H6"
+        },
+        {
+          "type": "checkbox",
+          "id": "apply_span",
+          "label": "Apply to Span"
+        },
+        {
+          "type": "checkbox",
+          "id": "apply_p",
+          "label": "Apply to Paragraph"
+        },
+        {
+          "type": "checkbox",
+          "id": "apply_a",
+          "label": "Apply to Anchor (a)"
+        },
+        {
+          "type": "checkbox",
+          "id": "apply_input",
+          "label": "Apply to Input"
+        },
+        {
+          "type": "checkbox",
+          "id": "apply_label",
+          "label": "Apply to Label"
+        },
+        {
+          "type": "checkbox",
+          "id": "apply_legend",
+          "label": "Apply to Legend"
+        },
+        {
+          "type": "checkbox",
+          "id": "apply_button",
+          "label": "Apply to Button"
+        },
+        {
+          "type": "checkbox",
+          "id": "apply_summary",
+          "label": "Apply to Summary"
+        },
+        {
+          "type": "checkbox",
+          "id": "apply_select",
+          "label": "Apply to Select"
+        },
+        {
+          "type": "checkbox",
+          "id": "apply_option",
+          "label": "Apply to Option"
+        },
+        {
+          "type": "checkbox",
+          "id": "apply_small",
+          "label": "Apply to Small"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
